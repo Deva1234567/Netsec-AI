@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Program Files\\Java\\jdk-21\\lib\\jrt-fs.jar"
+    ],
+    "git.ignoreLimitWarning": true
+}

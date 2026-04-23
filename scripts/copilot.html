@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<style>
+html,body{margin:0;padding:0;background:transparent;overflow:visible;}
+#btn{
+  position:fixed;bottom:16px;right:16px;
+  width:62px;height:62px;
+  background:linear-gradient(135deg,#00f9ff,#c300ff);
+  border-radius:50%;border:none;cursor:pointer;z-index:2147483647;
+  font-size:1.55rem;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 0 24px rgba(0,249,255,.6),0 6px 24px rgba(0,0,0,.8);
+  animation:pu 2.8s ease-in-out infinite;transition:transform .18s;
+}
+#btn:hover{transform:scale(1.12);}
+#bdg{
+  position:absolute;top:-3px;right:-3px;background:#ff0033;color:#fff;
+  font-size:.56rem;font-weight:900;width:19px;height:19px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;border:2px solid #040a14;
+  pointer-events:none;
+}
+@keyframes pu{
+  0%,100%{box-shadow:0 0 0 0 rgba(0,249,255,.5),0 6px 24px rgba(0,0,0,.8);}
+  50%{box-shadow:0 0 0 14px rgba(0,249,255,0),0 6px 24px rgba(0,0,0,.8);}
+}
+#pnl{
+  position:fixed;bottom:90px;right:8px;
+  width:400px;height:575px;
+  background:linear-gradient(160deg,#040d1a,#060f1e,#050c18);
+  border:1px solid rgba(0,249,255,.2);border-radius:20px;
+  display:flex;flex-direction:column;overflow:hidden;
+  box-shadow:0 30px 80px rgba(0,0,0,.9),0 0 0 1px rgba(195,0,255,.12);
+  z-index:2147483646;
+  opacity:0;transform:scale(.9) translateY(20px);pointer-events:none;
+  transition:opacity .22s cubic-bezier(.34,1.56,.64,1),transform .22s cubic-bezier(.34,1.56,.64,1);
+}
+#pnl.on{opacity:1;transform:scale(1) translateY(0);pointer-events:all;}
+.nh{background:linear-gradient(90deg,rgba(0,249,255,.1),rgba(195,0,255,.07));
+  border-bottom:1px solid rgba(255,255,255,.07);
+  padding:12px 15px;display:flex;align-items:center;gap:10px;flex-shrink:0;}
+.av{width:34px;height:34px;border-radius:50%;
+  background:linear-gradient(135deg,#00f9ff,#c300ff);
+  display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;}
+.tl{flex:1;}
+.t1{color:#00f9ff;font-size:.74rem;font-weight:700;letter-spacing:1.5px;font-family:monospace;}
+.t2{color:rgba(0,200,120,.4);font-size:.57rem;margin-top:1px;}
+.dt{width:7px;height:7px;border-radius:50%;background:#00c878;
+  box-shadow:0 0 6px #00c878;animation:bk 1.8s ease-in-out infinite;}
+@keyframes bk{0%,100%{opacity:1;}50%{opacity:.3;}}
+.cl{background:none;border:none;color:#334466;cursor:pointer;font-size:1.3rem;padding:2px 7px;}
+.cl:hover{color:#ff0033;}
+.cx{display:flex;gap:5px;flex-wrap:wrap;padding:5px 12px;
+  background:rgba(0,0,0,.25);border-bottom:1px solid #0b1520;flex-shrink:0;}
+.ch{background:rgba(0,249,255,.04);border:1px solid rgba(0,249,255,.1);
+  color:#2a4455;font-size:.56rem;padding:2px 8px;border-radius:8px;font-family:monospace;}
+.ch.live{color:rgba(0,200,120,.6);}
+.ch.cr{color:rgba(255,68,102,.7);}
+.ch.dp{color:rgba(255,153,0,.7);}
+.pp{display:flex;gap:4px;overflow-x:auto;padding:7px 12px;
+  border-bottom:1px solid #0b1520;flex-shrink:0;scrollbar-width:none;}
+.pp::-webkit-scrollbar{display:none;}
+.pl{background:rgba(0,249,255,.05);border:1px solid rgba(0,249,255,.12);
+  color:#3a5568;font-size:.58rem;padding:4px 11px;border-radius:12px;
+  cursor:pointer;white-space:nowrap;font-family:monospace;flex-shrink:0;transition:all .15s;}
+.pl:hover{color:#00f9ff;background:rgba(0,249,255,.12);}
+.pl.ac{background:linear-gradient(90deg,rgba(0,249,255,.18),rgba(195,0,255,.12));
+  border-color:rgba(0,249,255,.5);color:#00f9ff;font-weight:700;}
+.qa{display:grid;grid-template-columns:1fr 1fr;gap:5px;
+  padding:7px 12px;border-bottom:1px solid #0b1520;flex-shrink:0;}
+.qb{background:rgba(0,249,255,.04);border:1px solid rgba(0,249,255,.1);
+  color:#3a6070;font-size:.59rem;padding:5px 8px;border-radius:8px;
+  cursor:pointer;text-align:left;font-family:monospace;
+  display:flex;align-items:center;gap:5px;transition:all .15s;}
+.qb:hover{background:rgba(0,249,255,.1);color:#00d4e8;}
+.ms{flex:1;overflow-y:auto;padding:11px;
+  display:flex;flex-direction:column;gap:9px;min-height:0;}
+.ms::-webkit-scrollbar{width:3px;}
+.ms::-webkit-scrollbar-thumb{background:rgba(0,249,255,.12);border-radius:2px;}
+.mg{max-width:90%;word-wrap:break-word;animation:fi .18s ease-out;}
+@keyframes fi{from{opacity:0;transform:translateY(8px);}to{opacity:1;}}
+.mg.u{align-self:flex-end;
+  background:linear-gradient(135deg,rgba(0,249,255,.15),rgba(195,0,255,.1));
+  border:1px solid rgba(0,249,255,.2);border-radius:14px 14px 3px 14px;
+  padding:9px 13px;color:#c8e8ff;font-size:.71rem;line-height:1.5;}
+.mg.b{align-self:flex-start;background:rgba(5,11,22,.95);border:1px solid #192535;
+  border-radius:14px 14px 14px 3px;padding:11px 14px;color:#aac4e0;
+  font-size:.71rem;line-height:1.65;max-width:94%;}
+.pt{font-size:.55rem;color:rgba(0,249,255,.5);font-weight:700;letter-spacing:1.2px;
+  display:block;margin-bottom:5px;text-transform:uppercase;font-family:monospace;}
+.mg.b code{background:rgba(0,5,15,.75);border:1px solid #1a2535;
+  border-radius:4px;padding:1px 6px;color:#00c878;font-size:.67rem;font-family:monospace;}
+.mg.b pre{background:rgba(0,5,15,.9);border:1px solid #1a2535;border-radius:8px;
+  padding:9px 11px;margin-top:7px;color:#00c878;font-size:.64rem;
+  font-family:monospace;overflow-x:auto;white-space:pre-wrap;line-height:1.5;}
+.bd{display:inline-block;padding:2px 7px;border-radius:8px;
+  font-size:.58rem;font-weight:700;margin:2px 2px 0;font-family:monospace;}
+.bm{background:rgba(255,153,0,.13);border:1px solid rgba(255,153,0,.2);color:#ff9900;}
+.bc{background:rgba(255,0,51,.15);border:1px solid rgba(255,0,51,.25);color:#ff4466;}
+.bh{color:#ff9900;}.bmd{color:#ffcc44;}.bl{color:#00c878;}
+.ty{align-self:flex-start;background:rgba(5,11,22,.95);border:1px solid #192535;
+  border-radius:14px 14px 14px 3px;padding:11px 15px;display:flex;gap:6px;align-items:center;}
+.td{width:7px;height:7px;background:#00f9ff;border-radius:50%;
+  animation:tda 1.2s ease-in-out infinite;}
+.td:nth-child(2){animation-delay:.2s;}
+.td:nth-child(3){animation-delay:.4s;}
+@keyframes tda{0%,60%,100%{transform:translateY(0);opacity:.3;}30%{transform:translateY(-6px);opacity:1;}}
+.in{padding:9px 11px 13px;display:flex;gap:8px;align-items:flex-end;
+  flex-shrink:0;border-top:1px solid #0b1520;}
+#ta{flex:1;background:rgba(0,7,18,.95);border:1px solid #1a2a3c;border-radius:12px;
+  padding:9px 13px;color:#c8e8ff;font-size:.71rem;font-family:system-ui,sans-serif;
+  outline:none;resize:none;min-height:38px;max-height:100px;
+  transition:border-color .2s;line-height:1.5;}
+#ta:focus{border-color:rgba(0,249,255,.25);}
+#ta::placeholder{color:#1a3040;}
+#snd{background:linear-gradient(135deg,#00f9ff,#c300ff);border:none;
+  border-radius:12px;width:40px;min-height:38px;cursor:pointer;
+  color:#030c18;font-size:1.2rem;font-weight:900;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:transform .15s;}
+#snd:hover{transform:scale(1.1);}
+#snd:active{transform:scale(.94);}
+</style>
+</head>
+<body>
+
+<button id="btn" title="AI SOC Copilot">&#129302;<div id="bdg">0</div></button>
+
+<div id="pnl">
+  <div class="nh">
+    <div class="av" id="av">&#129504;</div>
+    <div class="tl">
+      <div class="t1">NETSEC AI COPILOT</div>
+      <div class="t2">context-aware &#183; 6 personas &#183; instant</div>
+    </div>
+    <div class="dt"></div>
+    <button class="cl" id="cls">&#215;</button>
+  </div>
+  <div class="cx">
+    <span class="ch live">&#8226; LIVE SOC</span>
+    <span class="ch" id="ctx-al">Alerts: 0</span>
+    <span class="ch" id="ctx-cr">Critical: 0</span>
+    <span class="ch" id="ctx-dp">DPDP: clear</span>
+    <span class="ch" id="ctx-pg">Page: Dashboard</span>
+  </div>
+  <div class="pp">
+    <div class="pl ac" data-p="SOC Brain">&#129504; SOC Brain</div>
+    <div class="pl" data-p="Triage Bot">&#128680; Triage</div>
+    <div class="pl" data-p="Hunt Bot">&#128301; Hunt</div>
+    <div class="pl" data-p="IR Bot">&#9889; IR</div>
+    <div class="pl" data-p="DPDP Bot">&#128203; DPDP</div>
+    <div class="pl" data-p="Zero-Day Oracle">&#127919; Zero-Day</div>
+  </div>
+  <div class="qa">
+    <button class="qb" data-q="Explain the latest critical alert">&#128269; Explain Alert</button>
+    <button class="qb" data-q="Investigate IP 185.220.101.45">&#127760; Investigate IP</button>
+    <button class="qb" data-q="Threat intel lookup suspicious domain">&#128737; Threat Intel</button>
+    <button class="qb" data-q="IR steps for ransomware">&#9889; IR Playbook</button>
+    <button class="qb" data-q="Splunk SPL for C2 beacon detection">&#128202; Hunt Query</button>
+    <button class="qb" data-q="DPDP breach notification 72h rule">&#128203; DPDP Check</button>
+  </div>
+  <div class="ms" id="msgs">
+    <div class="mg b">
+      <span class="pt">&#129504; SOC Brain &#183; NetSec AI Copilot</span>
+      Hey! I am your <b style="color:#00f9ff">AI SOC Copilot</b> &#8212;
+      ChatGPT + Threat Intel + SIEM in one popup.<br><br>
+      I can <b>explain alerts</b>, <b>investigate IPs</b>, <b>map MITRE</b>,
+      <b>generate IR playbooks</b>, and <b>write hunt queries</b>.<br><br>
+      <span style="color:#8ab8cc;font-size:.65rem">
+      Try: explain alert &#183; 185.220.101.45 &#183; T1071 &#183; DPDP 72h</span>
+    </div>
+  </div>
+  <div class="in">
+    <textarea id="ta" rows="1"
+      placeholder="Ask anything... explain alert, T1071, IR playbook, DPDP 72h"></textarea>
+    <button id="snd">&#8593;</button>
+  </div>
+</div>
+
+<script>
+var C = {al:0, cr:0, dp:0, bl:0};
+var isOpen = false;
+var per = 'SOC Brain';
+var busy = false;
+var IC = {
+  'SOC Brain':'&#129504;',
+  'Triage Bot':'&#128680;',
+  'Hunt Bot':'&#128301;',
+  'IR Bot':'&#9889;',
+  'DPDP Bot':'&#128203;',
+  'Zero-Day Oracle':'&#127919;'
+};
+
+function init(al, cr, dp, bl, pg) {
+  C = {al:al, cr:cr, dp:dp, bl:bl};
+  document.getElementById('ctx-al').textContent = 'Alerts: ' + al;
+  document.getElementById('ctx-cr').textContent = 'Critical: ' + cr;
+  document.getElementById('ctx-cr').className = 'ch' + (cr > 0 ? ' cr' : '');
+  document.getElementById('ctx-dp').textContent = dp > 0 ? 'DPDP: ' + dp + ' active' : 'DPDP: clear';
+  document.getElementById('ctx-dp').className = 'ch' + (dp > 0 ? ' dp' : '');
+  document.getElementById('ctx-pg').textContent = 'Page: ' + pg;
+  document.getElementById('bdg').textContent = al + cr;
+  document.getElementById('bdg').style.display = (al + cr) > 0 ? 'flex' : 'none';
+}
+
+function tgl() {
+  isOpen = !isOpen;
+  document.getElementById('pnl').classList.toggle('on', isOpen);
+  if (isOpen) {
+    document.getElementById('bdg').style.display = 'none';
+    setTimeout(function() { document.getElementById('ta').focus(); }, 200);
+  }
+}
+
+function setP(el) {
+  document.querySelectorAll('.pl').forEach(function(x) { x.classList.remove('ac'); });
+  el.classList.add('ac');
+  per = el.dataset.p;
+  document.getElementById('av').innerHTML = IC[per] || '&#129302;';
+}
+
+function ask(q) {
+  document.getElementById('ta').value = q;
+  send();
+}
+
+function send() {
+  var t = document.getElementById('ta');
+  var q = t.value.trim();
+  if (!q || busy) return;
+  t.value = '';
+  t.style.height = 'auto';
+  addMsg('u', q);
+  showTyping(true);
+  busy = true;
+  setTimeout(function() {
+    showTyping(false);
+    addMsg('b', reply(q, per), per);
+    busy = false;
+  }, 420 + Math.random() * 480);
+}
+
+function addMsg(c, t, p) {
+  var d = document.createElement('div');
+  d.className = 'mg ' + c;
+  if (c === 'b') {
+    d.innerHTML = '<span class="pt">' + (IC[p||per]||'&#129302;') + ' ' + (p||per) + ' &#183; NetSec AI</span>' + fmt(t);
+  } else {
+    d.textContent = t;
+  }
+  var m = document.getElementById('msgs');
+  m.appendChild(d);
+  m.scrollTop = m.scrollHeight;
+}
+
+function fmt(t) {
+  t = t.replace(/\*\*(.*?)\*\*/g, '<b style="color:#c8e8ff">$1</b>');
+  t = t.replace(/`([^`\n]+)`/g, '<code>$1</code>');
+  t = t.replace(/```([\s\S]*?)```/g, function(_, c) { return '<pre>' + c.trim() + '</pre>'; });
+  t = t.replace(/\bT(\d{4})(\.(\d{3}))?\b/g, '<span class="bd bm">T$1$2</span>');
+  t = t.replace(/\bCRITICAL\b/g, '<span class="bd bc">CRITICAL</span>');
+  t = t.replace(/\bHIGH\b/g, '<span class="bd bh">HIGH</span>');
+  t = t.replace(/\bMEDIUM\b/g, '<span class="bd bmd">MEDIUM</span>');
+  t = t.replace(/\bLOW\b/g, '<span class="bd bl">LOW</span>');
+  return t.replace(/\n/g, '<br>');
+}
+
+function showTyping(s) {
+  var m = document.getElementById('msgs');
+  var e = document.getElementById('ti');
+  if (s && !e) {
+    var d = document.createElement('div');
+    d.className = 'ty'; d.id = 'ti';
+    d.innerHTML = '<div class="td"></div><div class="td"></div><div class="td"></div>';
+    m.appendChild(d);
+    m.scrollTop = m.scrollHeight;
+  } else if (!s && e) {
+    e.remove();
+  }
+}
+
+function reply(q, p) {
+  var l = q.toLowerCase();
+  var ipMatch = q.match(/(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})/);
+  var bad = ipMatch && (ipMatch[1].startsWith('185.') || ipMatch[1].startsWith('198.') || ipMatch[1].startsWith('162.') || ipMatch[1].startsWith('45.33'));
+
+  if (ipMatch && (l.includes('malicious') || l.includes('check') || l.includes('investigate') || l.includes('intel') || l.includes('lookup'))) {
+    var ip = ipMatch[1];
+    return '**Threat Intel -- ' + ip + '**\n\nAbuseIPDB: ' + (bad ? '98% confidence, Tor exit node, 847 reports' : 'No reports in 30d') +
+      '\nVirusTotal: ' + (bad ? '14/86 malicious, C2 category' : '2/86 -- LOW confidence') +
+      '\nOTX: ' + (bad ? '12 pulses, APT29/Cobalt Strike infra' : '0 pulses') +
+      '\nGreyNoise: ' + (bad ? 'MALICIOUS -- actively scanning' : 'Not observed') +
+      '\n\nRisk: ' + (bad ? 'CRITICAL -- Block immediately' : 'MEDIUM -- Monitor closely') +
+      '\n\n1. **Global Block strip** (top of page)\n2. **IOC Intelligence** -- full enrichment\n3. **Alert Triage** -- search historical hits';
+  }
+
+  if (l.includes('block') || l.includes('contain') || l.includes('isolate')) {
+    var tg = ipMatch ? ipMatch[1] : 'the IOC';
+    return '**Containment -- ' + tg + '**\n\n1. **Global Block strip** -- block ' + tg +
+      '\n2. **Endpoint Security Controls** -- isolate host\n3. Disable compromised credentials\n4. Capture memory before isolation\n\nVerify:\n```\nindex=firewall action=blocked dest=' + tg + '\n| stats count by src_ip\n```\nRun **SOAR Automation -- Malware Containment** (8-step)';
+  }
+
+  if (l.includes('explain') && (l.includes('alert') || l.includes('this'))) {
+    return '**Alert Explanation**\n\nQueue: **' + C.al + ' alerts, ' + C.cr + ' CRITICAL**\n\nTop pattern: Outbound HTTPS beacon to low-reputation IP\nMITRE: T1071.001 -- Application Layer Protocol (C2)\nConfidence: HIGH (14 VT engines, beacon interval matched)\n\nPlain language: Process makes regular 60s HTTPS requests matching Cobalt Strike beacon timing.\n\nFP probability: ~8% -- verify process name.\n\nGo to **Alert Triage Autopilot** for full AI analysis.';
+  }
+
+  var mitreMatch = q.match(/T(\d{4})(\.(\d{3}))?/i);
+  if (mitreMatch || l.includes('mitre') || l.includes('technique') || l.includes('tactic')) {
+    var tid = mitreMatch ? mitreMatch[0].toUpperCase() : 'T1071';
+    var db = {
+      'T1071': ['Application Layer Protocol','C2','Malware uses HTTP/HTTPS/DNS for C2 to blend with normal traffic.','Cobalt Strike, Metasploit, Empire','JA3 fingerprinting, Zeek conn logs, beacon intervals'],
+      'T1190': ['Exploit Public-Facing App','Initial Access','Exploits unpatched vuln in internet-exposed app.','Log4Shell, ProxyLogon, EternalBlue','WAF logs, CVE monitoring, patch management'],
+      'T1059': ['Command and Scripting','Execution','Malicious scripts via PowerShell, bash, WScript.','Empire, Cobalt Strike','Sysmon EID 1, script block logging, AMSI'],
+      'T1003': ['Credential Dumping','Credential Access','Extracts creds from LSASS, SAM, NTDS.','Mimikatz, Impacket','Sysmon EID 10, Credential Guard'],
+      'T1486': ['Data Encrypted for Impact','Impact','Ransomware encrypts files, deletes VSS copies.','LockBit, Conti, REvil, BlackCat','Shadow copy deletion, VSS monitoring'],
+      'T1041': ['Exfil Over C2 Channel','Exfiltration','Steals data through existing C2 to avoid DLP.','APT29, FIN7, Lazarus','Zeek conn bytes, DNS volume anomaly'],
+      'T1566': ['Phishing','Initial Access','Spear-phishing email with malicious attachment.','APT28, Lazarus, TA505','Email gateway, attachment sandbox, DKIM/SPF'],
+      'T1021': ['Remote Services','Lateral Movement','Moves via RDP, SMB, WMI, PsExec.','Cobalt Strike, Impacket','Sysmon EID 3, lateral logon 4624, SMB spike'],
+      'T1078': ['Valid Accounts','Persistence','Uses stolen credentials to maintain access.','APT29, FIN7','Logon events 4624/4625, impossible travel, off-hours access']
+    };
+    var inf = db[tid] || ['Unknown', 'ATT&CK', 'See MITRE ATT&CK website for details.', 'Various', 'Review your detection rules'];
+    return '**MITRE ATT&CK -- ' + tid + '**\n\nTechnique: ' + inf[0] + '\nTactic: ' + inf[1] +
+      '\n\nExplanation: ' + inf[2] + '\n\nThreat actors: ' + inf[3] + '\n\nDetection: ' + inf[4] +
+      '\n\nUse **Hunt Query Builder** for ' + tid + ' detection queries.';
+  }
+
+  if (l.includes('incident') || l.includes('playbook') || l.includes('response') || (' ' + l + ' ').includes(' ir ')) {
+    var rn = l.includes('ransom');
+    return '**IR Playbook -- ' + (rn ? 'Ransomware' : 'General Incident') + '**\n\nPhase 1 Containment (0-30 min):\n1. Isolate -- Endpoint Security Controls\n2. Block C2 -- Global Block strip\n3. Disable compromised account\n' +
+      (rn ? '4. Disable network shares\n5. Snapshot VSS NOW\n\n' : '4. Preserve memory image\n\n') +
+      'Phase 2 Investigation (30-120 min):\n1. Collect artefacts -- Evidence Vault\n2. Run Autonomous Investigator\n3. Attack timeline -- Attack Correlation\n\nDPDP check: Personal data accessed?\nYES -- DPDP Breach Console -- 72h timer NOW\n\nRun **SOAR Automation -- ' + (rn ? 'Ransomware' : 'Malware Containment') + '**';
+  }
+
+  if (l.includes('dpdp') || l.includes('72h') || l.includes('data protection') || l.includes('breach')) {
+    return '**DPDP Act 2023 -- Breach Notification**\n\n' +
+      (C.dp > 0 ? 'WARNING: ' + C.dp + ' active DPDP timer(s)!\n\n' : '') +
+      'Section 8(6):\nNotify DPBI within **72 hours** of discovery\nCERT-In: **6 hours** from detection\n\nPenalties: up to **250 Crore INR**\n\nTriggers: PII exfiltration (T1041), ransomware (T1486), credential theft (T1003)\n\nGo to **DPDP Breach Console** -- start timer -- auto-generate DPBI draft.';
+  }
+
+  if (l.includes('hunt') || l.includes('splunk') || l.includes('spl') || l.includes('sigma') || l.includes('query')) {
+    var qt = l.includes('lsass') || l.includes('cred') ? 'lsass' : l.includes('dns') ? 'dns' : 'c2';
+    var qs = {
+      lsass: 'index=sysmon EventCode=10 TargetImage=*lsass.exe*\n| table _time host SourceImage GrantedAccess\n| sort -_time',
+      c2: 'index=zeek sourcetype=conn duration>60\n| stats count,avg(duration) as avg_dur by dest_ip\n| where count>20 AND avg_dur>45 | sort -count',
+      dns: 'index=zeek sourcetype=dns\n| eval qlen=len(query) | where qlen>40\n| stats count by query,src_ip | where count<3 | sort -qlen'
+    };
+    return '**Hunt Query -- ' + qt.toUpperCase() + '**\n\n```\n' + qs[qt] + '\n```\n\nUse **Hunt Query Builder** for SPL/Elastic/Zeek/Sigma/KQL.';
+  }
+
+  if (p === 'Triage Bot') return '**Triage**\n\nSeverity: HIGH -- MITRE: T1059.001\nFP: ~14%\n\nWINWORD spawning PowerShell = HIGH confidence.\n```\nindex=sysmon EventCode=4688 Image=*powershell*\n| table _time host ParentImage\n```\nGo to **Alert Triage Autopilot**.';
+  if (p === 'Hunt Bot') return '**Hunt**\n\n```\nindex=zeek sourcetype=dns\n| eval qlen=len(query) | where qlen>30\n| stats count by query,src_ip | sort -qlen | head 20\n```\nUse **Hunt Query Builder** for multi-format export.';
+  if (p === 'IR Bot') return '**IR Protocol**\n\nIsolate -- Block C2 -- Preserve memory\n\nPII accessed? 72h DPDP timer starts NOW.\n\nRun **SOAR Automation -- Malware Containment**.';
+  if (p === 'DPDP Bot') return '**DPDP Compliance**\n\n72h starts at discovery.\nFine: up to **250 Crore INR**.\n\nDPBI must include:\n1. Nature of breach\n2. Categories of PII\n3. Number of data principals\n4. Likely consequences\n5. Remediation measures\n\nGo to **DPDP Breach Console -- Draft DPBI**.';
+  if (p === 'Zero-Day Oracle') return '**Threat Oracle**\n\nCluster: APT29 (Tor exit + HTTPS C2)\nKill chain: C2 -- Credential Access -- Exfil\n\nPredicted next moves:\n- T1003.001 -- LSASS dump (Mimikatz)\n- T1021.002 -- SMB lateral movement\n- T1041 -- Exfil over C2\n\nDefences:\n1. Enable Credential Guard on all DCs\n2. Block /22 subnet\n3. Deploy Cobalt Strike YARA rule\n4. Rotate Domain Admin credentials now\n\nRun **Platform Stress Test** to validate coverage.';
+
+  return '**SOC Brain**\n\nContext: **' + C.al + ' alerts, ' + C.cr + ' critical, ' + C.dp + ' DPDP timers**\n\nCapabilities:\n- IP/Domain analysis -- **Domain Analysis**\n- Alert triage -- **Alert Triage Autopilot**\n- Attack timeline -- **Attack Correlation**\n- Hunt queries -- **Hunt Query Builder**\n- Automated response -- **SOAR Automation**\n- Compliance -- **DPDP Breach Console**\n\nTry: explain alert, 185.220.101.45, T1071, IR playbook, DPDP 72h';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('btn').addEventListener('click', tgl);
+  document.getElementById('cls').addEventListener('click', tgl);
+  document.getElementById('snd').addEventListener('click', send);
+  document.getElementById('ta').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
+  });
+  document.getElementById('ta').addEventListener('input', function() {
+    this.style.height = 'auto';
+    this.style.height = Math.min(this.scrollHeight, 100) + 'px';
+  });
+  document.querySelectorAll('.pl').forEach(function(el) {
+    el.addEventListener('click', function() { setP(this); });
+  });
+  document.querySelectorAll('.qb').forEach(function(el) {
+    el.addEventListener('click', function() { ask(this.dataset.q); });
+  });
+});
+</script>
+</body></html>

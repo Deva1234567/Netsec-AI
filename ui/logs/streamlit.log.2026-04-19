@@ -1,0 +1,1072 @@
+2026-04-19 11:02:40,676 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:02:42,748 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:02:42,752 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:06:47,763 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:25:22,290 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:25:22,292 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:25:22,444 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:25:47,832 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:25:47,837 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:26:46,882 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:26:47,084 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:26:47,085 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:26:47,088 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:26:47,088 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:26:47,090 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:26:47,091 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:26:47,150 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:26:47,151 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:26:47,417 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:26:47,436 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:26:47,436 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:26:47,437 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:26:47,437 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:26:47,438 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:26:47,441 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:26:47,505 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:26:47,505 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:27:41,645 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:27:41,666 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:27:41,667 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:27:41,668 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:27:41,669 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:27:41,670 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:27:41,671 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:27:41,767 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:27:41,767 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:40:07,957 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:40:08,225 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:40:08,240 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:40:08,264 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:40:08,271 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:40:08,289 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:40:08,319 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:40:08,491 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:40:08,491 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:40:09,259 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:40:09,309 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:40:09,315 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:40:09,320 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:40:09,320 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:40:09,322 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:40:09,323 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:40:09,470 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:40:09,478 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:40:24,756 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:40:24,791 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:40:24,809 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:40:24,832 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:40:24,833 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:40:24,836 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:40:24,836 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:40:24,976 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:40:24,977 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:40:25,847 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:40:25,881 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:40:25,882 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:40:25,883 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:40:25,884 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:40:25,893 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:40:25,894 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:40:26,036 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:40:26,037 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:41:19,527 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:41:19,551 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:41:19,555 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:41:19,558 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:41:19,559 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:41:19,560 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:41:19,560 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:41:19,735 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:41:19,736 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:41:22,262 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:41:22,466 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:41:22,469 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:41:22,472 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:41:22,473 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:41:22,475 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:41:22,476 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:41:22,580 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:41:22,581 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:41:24,630 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:41:24,684 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:41:24,690 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:41:24,693 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:41:24,696 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:41:24,702 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:41:24,705 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:41:24,825 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:41:24,825 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:41:24,929 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:41:25,060 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:41:25,062 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:41:25,063 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:41:25,064 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:41:25,105 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:41:25,138 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:41:25,328 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:41:25,328 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:41:29,090 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:41:29,137 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:41:29,137 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:41:29,141 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:41:29,141 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:41:29,144 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:41:29,145 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:41:29,246 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:41:29,247 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:41:48,853 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:41:48,883 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:41:48,884 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:41:48,887 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:41:48,887 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:41:48,888 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:41:48,888 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:41:48,949 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:41:48,949 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:41:49,486 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:41:50,001 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:41:50,002 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:41:50,007 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:41:50,008 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:41:50,010 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:41:50,011 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:41:50,116 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:41:50,116 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:42:19,557 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:42:19,697 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:42:19,698 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:42:19,701 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:42:19,702 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:42:19,704 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:42:19,705 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:42:19,843 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:42:19,846 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:42:20,799 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:42:20,852 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:42:20,862 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:42:20,866 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:42:20,870 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:42:20,872 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:42:20,879 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:42:21,028 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:42:21,029 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:42:27,426 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:42:27,458 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:42:27,458 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:42:27,459 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:42:27,460 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:42:27,461 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:42:27,462 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:42:27,579 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:42:27,580 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:42:28,501 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:42:28,534 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:42:28,535 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:42:28,536 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:42:28,537 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:42:28,539 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:42:28,539 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:42:28,655 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:42:28,656 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:42:41,521 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:42:41,554 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:42:41,554 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:42:41,557 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:42:41,557 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:42:41,558 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:42:41,559 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:42:41,628 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:42:41,629 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:42:46,072 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:42:46,151 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:42:46,151 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:42:46,154 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:42:46,157 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:42:46,160 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:42:46,161 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:42:46,274 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:42:46,274 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:42:46,771 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:42:47,071 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:42:47,084 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:42:47,095 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:42:47,096 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:42:47,114 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:42:47,116 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:42:47,305 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:42:47,320 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 11:42:55,261 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 11:42:55,298 - streamlit_app - INFO - Logger initialized
+2026-04-19 11:42:55,299 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 11:42:55,302 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 11:42:55,303 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 11:42:55,304 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 11:42:55,304 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 11:42:55,378 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 11:42:55,378 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:08:28,805 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:08:29,224 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:08:29,225 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:08:29,228 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:08:29,230 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:08:29,230 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:08:29,233 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:08:29,676 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:08:29,678 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:08:32,603 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:08:32,623 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:08:32,623 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:08:32,624 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:08:32,624 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:08:32,625 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:08:32,625 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:08:32,678 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:08:32,679 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:08:33,116 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:08:33,139 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:08:33,139 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:08:33,140 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:08:33,140 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:08:33,141 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:08:33,142 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:08:33,208 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:08:33,208 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:08:33,681 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:08:33,701 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:08:33,702 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:08:33,702 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:08:33,703 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:08:33,706 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:08:33,707 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:08:33,779 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:08:33,780 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:11:45,802 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:11:45,963 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:11:45,964 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:11:45,965 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:11:45,965 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:11:45,974 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:11:45,975 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:11:48,170 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:11:48,170 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:11:48,771 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:11:48,802 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:11:48,802 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:11:48,803 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:11:48,804 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:11:48,805 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:11:48,806 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:11:48,871 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:11:48,871 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:11:59,621 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:11:59,642 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:11:59,643 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:11:59,643 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:11:59,644 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:11:59,645 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:11:59,645 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:11:59,730 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:11:59,732 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:12:02,939 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:12:02,981 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:12:02,982 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:12:02,983 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:12:02,983 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:12:02,984 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:12:02,985 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:12:03,069 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:12:03,070 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:12:03,511 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:12:03,535 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:12:03,536 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:12:03,536 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:12:03,537 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:12:03,538 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:12:03,539 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:12:03,652 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:12:03,653 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:12:28,379 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:12:28,417 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:12:28,418 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:12:28,418 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:12:28,419 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:12:28,420 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:12:28,420 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:12:28,490 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:12:28,491 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:12:28,970 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:12:28,996 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:12:28,996 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:12:28,997 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:12:28,998 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:12:29,000 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:12:29,001 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:12:29,080 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:12:29,081 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:12:43,319 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:12:43,350 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:12:43,350 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:12:43,351 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:12:43,351 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:12:43,353 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:12:43,354 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:12:43,437 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:12:43,438 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:12:43,927 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:12:43,949 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:12:43,949 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:12:43,950 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:12:43,950 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:12:43,951 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:12:43,952 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:12:44,028 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:12:44,029 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:12:49,212 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:12:49,245 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:12:49,246 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:12:49,247 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:12:49,247 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:12:49,249 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:12:49,249 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:12:49,320 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:12:49,321 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:14:44,982 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:14:45,018 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:14:45,019 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:14:45,019 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:14:45,020 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:14:45,021 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:14:45,022 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:14:45,101 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:14:45,102 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:14:45,897 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:14:45,918 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:14:45,918 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:14:45,919 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:14:45,920 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:14:45,923 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:14:45,923 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:14:46,006 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:14:46,007 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:14:57,093 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:14:57,152 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:14:57,158 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:14:57,163 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:14:57,166 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:14:57,173 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:14:57,174 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:14:57,276 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:14:57,277 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:14:57,723 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:14:58,097 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:14:58,099 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:14:58,100 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:14:58,101 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:14:58,109 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:14:58,110 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:14:58,242 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:14:58,243 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:17:34,018 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:17:34,069 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:17:34,069 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:17:34,071 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:17:34,072 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:17:34,074 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:17:34,075 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:17:34,401 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:17:34,402 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:17:35,163 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:17:35,197 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:17:35,198 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:17:35,198 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:17:35,199 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:17:35,200 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:17:35,201 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:17:35,309 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:17:35,311 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:17:43,335 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:17:43,370 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:17:43,371 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:17:43,373 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:17:43,374 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:17:43,376 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:17:43,377 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:17:43,504 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:17:43,505 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:17:45,380 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:17:45,418 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:17:45,420 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:17:45,420 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:17:45,421 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:17:45,423 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:17:45,423 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:17:45,524 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:17:45,525 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:17:55,531 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:17:55,565 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:17:55,565 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:17:55,566 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:17:55,567 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:17:55,568 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:17:55,569 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:17:55,644 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:17:55,645 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:18:57,317 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:18:57,372 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:18:57,373 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:18:57,374 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:18:57,374 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:18:57,375 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:18:57,375 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:18:57,461 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:18:57,462 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:18:58,026 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:18:58,051 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:18:58,051 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:18:58,052 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:18:58,053 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:18:58,054 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:18:58,055 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:18:58,135 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:18:58,136 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:02,476 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:02,525 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:02,526 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:02,526 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:02,527 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:02,528 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:02,529 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:02,620 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:02,621 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:16,822 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:16,973 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:16,975 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:16,978 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:16,980 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:16,985 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:16,986 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:17,153 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:17,155 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:17,613 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:18,201 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:18,202 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:18,203 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:18,204 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:18,206 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:18,207 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:18,351 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:18,352 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:45,046 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:45,075 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:45,076 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:45,077 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:45,077 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:45,079 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:45,079 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:45,156 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:45,156 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:45,818 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:45,843 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:45,844 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:45,844 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:45,845 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:45,847 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:45,848 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:45,928 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:45,929 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:48,379 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:48,443 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:48,444 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:48,444 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:48,444 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:48,446 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:48,446 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:48,522 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:48,523 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:49,397 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:49,434 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:49,435 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:49,436 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:49,436 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:49,438 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:49,439 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:49,549 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:49,550 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:54,819 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:54,858 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:54,858 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:54,859 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:54,859 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:54,860 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:54,861 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:54,921 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:54,922 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:19:55,146 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:19:55,447 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:19:55,447 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:19:55,448 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:19:55,448 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:19:55,449 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:19:55,449 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:19:55,504 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:19:55,505 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:03,600 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:03,649 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:03,649 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:03,650 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:03,650 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:03,651 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:03,652 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:03,748 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:03,748 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:11,127 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:11,160 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:11,161 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:11,162 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:11,162 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:11,163 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:11,164 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:11,243 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:11,244 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:11,695 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:11,714 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:11,714 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:11,714 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:11,715 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:11,715 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:11,716 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:11,786 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:11,787 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:24,665 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:24,702 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:24,713 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:24,714 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:24,715 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:24,715 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:24,716 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:24,776 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:24,776 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:25,249 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:25,515 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:25,515 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:25,516 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:25,516 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:25,517 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:25,518 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:25,588 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:25,589 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:35,576 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:35,606 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:35,606 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:35,607 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:35,609 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:35,610 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:35,610 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:35,687 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:35,688 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:36,220 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:36,264 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:36,265 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:36,267 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:36,270 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:36,273 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:36,275 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:36,426 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:36,427 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:46,273 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:46,382 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:46,383 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:46,383 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:46,385 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:46,386 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:46,387 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:46,505 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:46,506 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:46,835 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:47,055 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:47,056 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:47,056 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:47,057 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:47,058 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:47,059 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:47,176 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:47,176 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:20:50,503 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:20:50,542 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:20:50,543 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:20:50,543 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:20:50,544 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:20:50,545 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:20:50,545 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:20:50,621 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:20:50,621 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:10,558 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:10,598 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:10,599 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:10,599 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:10,600 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:10,600 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:10,601 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:10,661 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:10,661 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:11,157 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:11,202 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:11,203 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:11,203 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:11,204 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:11,205 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:11,206 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:11,305 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:11,306 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:16,747 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:16,816 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:16,823 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:16,823 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:16,824 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:16,825 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:16,827 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:16,959 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:16,960 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:17,442 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:17,811 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:17,812 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:17,813 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:17,814 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:17,815 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:17,815 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:17,917 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:17,918 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:22,736 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:22,774 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:22,774 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:22,774 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:22,775 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:22,776 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:22,777 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:22,857 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:22,857 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:23,560 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:24,024 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:24,025 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:24,026 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:24,033 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:24,035 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:24,036 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:24,144 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:24,147 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:33,909 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:33,948 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:33,948 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:33,949 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:33,949 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:33,950 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:33,950 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:34,010 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:34,011 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:34,258 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:34,443 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:34,443 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:34,444 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:34,444 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:34,446 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:34,447 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:34,516 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:34,516 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:40,135 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:40,171 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:40,172 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:40,172 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:40,173 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:40,175 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:40,175 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:40,255 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:40,256 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:49,288 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:49,319 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:49,320 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:49,321 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:49,321 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:49,322 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:49,322 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:49,385 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:49,385 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:49,790 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:49,839 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:49,844 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:49,850 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:49,858 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:49,866 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:49,875 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:49,968 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:49,968 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:21:56,539 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:21:56,570 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:21:56,571 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:21:56,572 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:21:56,572 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:21:56,573 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:21:56,575 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:21:56,634 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:21:56,635 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:05,055 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:05,084 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:05,084 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:05,085 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:05,085 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:05,085 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:05,086 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:05,222 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:05,223 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:05,309 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:05,335 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:05,338 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:05,338 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:05,339 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:05,342 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:05,343 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:05,491 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:05,507 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:09,862 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:09,885 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:09,885 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:09,885 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:09,886 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:09,887 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:09,887 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:09,941 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:09,942 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:19,892 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:19,928 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:19,929 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:19,929 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:19,930 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:19,931 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:19,931 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:20,011 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:20,011 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:23,770 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:23,828 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:23,831 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:23,833 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:23,834 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:23,839 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:23,845 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:23,969 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:23,970 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:29,050 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:29,076 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:29,077 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:29,077 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:29,078 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:29,079 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:29,080 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:29,155 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:29,155 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:35,126 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:35,156 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:35,157 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:35,157 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:35,157 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:35,158 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:35,158 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:35,218 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:35,219 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:35,686 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:35,703 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:35,703 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:35,704 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:35,705 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:35,706 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:35,706 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:35,775 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:35,777 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:55,034 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:55,071 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:55,072 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:55,072 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:55,073 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:55,073 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:55,074 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:55,145 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:55,145 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:22:55,491 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:22:55,889 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:22:55,890 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:22:55,890 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:22:55,892 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:22:55,893 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:22:55,894 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:22:55,993 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:22:55,994 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:23:28,540 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:23:28,577 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:23:28,578 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:23:28,579 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:23:28,580 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:23:28,582 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:23:28,583 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:23:28,672 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:23:28,673 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:23:29,544 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:23:29,574 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:23:29,574 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:23:29,575 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:23:29,576 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:23:29,577 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:23:29,578 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:23:29,663 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:23:29,664 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:23:35,848 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:23:35,881 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:23:35,883 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:23:35,884 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:23:35,886 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:23:35,888 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:23:35,888 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:23:36,020 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:23:36,021 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:23:38,260 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:23:38,299 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:23:38,301 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:23:38,301 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:23:38,302 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:23:38,303 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:23:38,304 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:23:38,387 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:23:38,387 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:23:38,693 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:23:39,118 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:23:39,118 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:23:39,119 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:23:39,119 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:23:39,120 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:23:39,120 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:23:39,197 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:23:39,198 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:32:42,369 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:32:42,913 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:32:42,913 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:32:42,914 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:32:42,914 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:32:42,915 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:32:42,916 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:32:46,295 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:32:46,295 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:32:50,856 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:32:50,890 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:32:50,892 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:32:50,892 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:32:50,893 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:32:50,894 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:32:50,894 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:32:51,005 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:32:51,006 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:33:06,147 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:33:06,203 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:33:06,204 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:33:06,206 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:33:06,206 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:33:06,208 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:33:06,208 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:33:06,313 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:33:06,314 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:33:06,836 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:33:07,307 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:33:07,313 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:33:07,315 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:33:07,324 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:33:07,328 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:33:07,329 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:33:07,447 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:33:07,448 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:33:22,155 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:33:22,256 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:33:22,258 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:33:22,259 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:33:22,260 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:33:22,261 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:33:22,262 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:33:22,373 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:33:22,374 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:33:23,246 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:33:23,275 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:33:23,276 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:33:23,277 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:33:23,278 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:33:23,279 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:33:23,279 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:33:23,345 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:33:23,345 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:33:33,526 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:33:33,560 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:33:33,561 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:33:33,561 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:33:33,562 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:33:33,563 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:33:33,564 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:33:33,634 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:33:33,634 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:33:33,911 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:33:34,487 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:33:34,488 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:33:34,489 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:33:34,490 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:33:34,523 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:33:34,538 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:33:34,729 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:33:34,730 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:33:40,176 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:33:40,218 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:33:40,218 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:33:40,219 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:33:40,219 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:33:40,220 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:33:40,221 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:33:40,284 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:33:40,285 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:34:29,435 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:34:29,478 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:34:29,479 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:34:29,479 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:34:29,480 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:34:29,481 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:34:29,482 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:34:29,593 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:34:29,594 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:34:30,669 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:34:30,697 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:34:30,698 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:34:30,698 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:34:30,698 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:34:30,699 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:34:30,699 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:34:30,794 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:34:30,794 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:34:40,672 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:34:40,719 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:34:40,720 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:34:40,721 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:34:40,722 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:34:40,724 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:34:40,725 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:34:40,821 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:34:40,821 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:34:41,217 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:34:41,869 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:34:41,870 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:34:41,871 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:34:41,871 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:34:41,873 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:34:41,874 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:34:41,980 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:34:41,981 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:43:16,080 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:43:16,326 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:43:16,328 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:43:16,328 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:43:16,329 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:43:16,331 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:43:16,332 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:43:16,591 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:43:16,592 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 12:43:17,321 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 12:43:17,872 - streamlit_app - INFO - Logger initialized
+2026-04-19 12:43:17,888 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 12:43:17,893 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 12:43:17,897 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 12:43:17,910 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 12:43:17,914 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 12:43:18,079 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 12:43:18,080 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 13:38:34,984 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 13:38:35,063 - streamlit_app - INFO - Logger initialized
+2026-04-19 13:38:35,064 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 13:38:35,064 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 13:38:35,065 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 13:38:35,066 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 13:38:35,066 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 13:38:35,132 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 13:38:35,133 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:50:29,931 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:50:29,963 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:50:29,964 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:50:29,964 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:50:29,965 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:50:29,966 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:50:29,967 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:50:30,151 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:50:30,151 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:50:38,457 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:50:38,486 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:50:38,487 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:50:38,487 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:50:38,490 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:50:38,491 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:50:38,492 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:50:38,561 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:50:38,562 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:50:39,083 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:50:39,103 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:50:39,103 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:50:39,104 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:50:39,104 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:50:39,105 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:50:39,105 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:50:39,157 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:50:39,157 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:50:49,979 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:50:50,005 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:50:50,006 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:50:50,006 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:50:50,007 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:50:50,007 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:50:50,008 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:50:50,069 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:50:50,070 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:50:50,323 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:50:50,602 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:50:50,602 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:50:50,603 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:50:50,603 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:50:50,603 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:50:50,604 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:50:50,652 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:50:50,652 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:50:51,721 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:50:51,747 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:50:51,748 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:50:51,748 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:50:51,749 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:50:51,749 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:50:51,750 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:50:51,809 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:50:51,809 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:52:17,020 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:52:17,061 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:52:17,062 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:52:17,062 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:52:17,063 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:52:17,063 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:52:17,064 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:52:17,132 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:52:17,133 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:52:21,755 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:52:21,786 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:52:21,789 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:52:21,791 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:52:21,791 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:52:21,792 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:52:21,793 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:52:21,866 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:52:21,867 - streamlit_app - INFO - whois module ready using attribute: 'whois'
+2026-04-19 16:52:32,671 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:52:32,747 - streamlit_app - INFO - Logger initialized
+2026-04-19 16:52:32,747 - streamlit_app - INFO - Splunk handler loaded successfully
+2026-04-19 16:52:32,747 - streamlit_app - INFO - Enterprise module loaded
+2026-04-19 16:52:32,748 - streamlit_app - INFO - Zeek/Sysmon module loaded
+2026-04-19 16:52:32,781 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-19 16:52:32,788 - streamlit_app - INFO - Threat intel module loaded
+2026-04-19 16:52:32,788 - streamlit_app - INFO - NetSec AI v10.0 starting
+2026-04-19 16:52:32,855 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-19 16:52:32,857 - streamlit_app - INFO - whois module ready using attribute: 'whois'

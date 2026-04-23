@@ -1,0 +1,4419 @@
+{
+  "testphp.vulnweb.com": {
+    "value": "testphp.vulnweb.com",
+    "score": 60,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.24 \u2014 natural language"
+      ],
+      [
+        -30,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 1 malicious detections"
+      ]
+    ],
+    "api_used": [
+      "VT: 1 malicious detections"
+    ],
+    "summary": "testphp.vulnweb.com \u2014 Reputation: 60/100 (LOW RISK). Monitor passively \u2014 limited enrichment.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774766160.556787
+  },
+  "mbm.ac.in": {
+    "value": "mbm.ac.in",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.in) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".in \u2014 trusted TLD"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (3 chars) \u2014 typical of established brands"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 61 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "mbm.ac.in \u2014 Reputation score: 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "ts": 1774076964.826396
+  },
+  "claude.ai": {
+    "value": "claude.ai",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.ai) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".ai \u2014 trusted TLD"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (6 chars) \u2014 typical of established brands"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 64 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "claude.ai \u2014 Reputation score: 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "ts": 1774077309.9382994
+  },
+  "demo.owasp-juice.shop": {
+    "value": "demo.owasp-juice.shop",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.shop) \u2014 commonly new/malicious"
+      ],
+      [
+        -20,
+        "\ud83c\udf10 TLD Reputation",
+        ".shop \u2014 MEDIUM abuse TLD (risk weight: -20)"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (4 chars)"
+      ],
+      [
+        -30,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 2 malicious detections"
+      ]
+    ],
+    "api_used": [
+      "VT: 2 malicious detections"
+    ],
+    "summary": "demo.owasp-juice.shop \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767841.0599432
+  },
+  "jnvu.com": {
+    "value": "jnvu.com",
+    "score": 65,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (4 chars)"
+      ],
+      [
+        -30,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 1 malicious detections"
+      ]
+    ],
+    "api_used": [
+      "VT: 1 malicious detections"
+    ],
+    "summary": "jnvu.com \u2014 Reputation: 65/100 (LOW RISK). Monitor passively \u2014 limited enrichment.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767465.1910462
+  },
+  "whatsapp.com": {
+    "score": 100,
+    "verdict": "TRUSTED INFRASTRUCTURE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "realistic_conf": 99,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "whatsapp.com \u2014 Trusted infrastructure. Part of a well-established, globally recognised provider. No malicious indicators.",
+    "safe": true,
+    "gate_tier": "trusted",
+    "from_cache": false,
+    "ts": 1774107705.4236753
+  },
+  "cricbuzz.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "cricbuzz.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "decision_engine": "Known-established list \u2014 fast-path SAFE",
+    "ts": 1774797635.2613962
+  },
+  "swiggy.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "swiggy.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "decision_engine": "Known-established list \u2014 fast-path SAFE",
+    "ts": 1774767463.0539753
+  },
+  "zomato.com": {
+    "value": "zomato.com",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.25 \u2014 natural language name"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (6 chars) \u2014 typical of established brands"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 63 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "zomato.com \u2014 Reputation score: 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "ts": 1774149309.7450013
+  },
+  "192.168.1.5": {
+    "value": "192.168.1.5",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".5 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ],
+      [
+        60,
+        "\ud83c\udfe0 Private IP",
+        "Internal/private network"
+      ],
+      [
+        25,
+        "\u2705 AbuseIPDB",
+        "Abuse score 0% \u2014 CLEAN"
+      ],
+      [
+        30,
+        "\u2705 VirusTotal",
+        "0 malicious / 61 harmless"
+      ]
+    ],
+    "sources_used": [
+      "AgeHeuristic",
+      "VirusTotal",
+      "AbuseIPDB",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "AbuseIPDB",
+      "VirusTotal"
+    ],
+    "summary": "192.168.1.5 \u2014 80/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": true,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1776581428.8001542
+  },
+  "tesla.com": {
+    "value": "tesla.com",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.32 \u2014 natural language name"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (5 chars) \u2014 typical of established brands"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 63 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "tesla.com \u2014 Reputation score: 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "ts": 1774150304.4942172
+  },
+  "espncricinfo.com": {
+    "value": "espncricinfo.com",
+    "score": 90,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 62 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "espncricinfo.com \u2014 Reputation score: 90/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "ts": 1774152507.2651627
+  },
+  "google.com": {
+    "value": "google.com",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        50,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ],
+      [
+        30,
+        "\u2705 VirusTotal",
+        "0 malicious / 68 harmless"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "VirusTotal",
+      "OTX",
+      "KnownList"
+    ],
+    "summary": "google.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1776879664.3709307,
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ]
+  },
+  "snapchat.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "snapchat.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "ts": 1774262534.6517124
+  },
+  "podareducation.org": {
+    "value": "podareducation.org",
+    "score": 90,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".org \u2014 trusted TLD"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 62 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "podareducation.org \u2014 Reputation score: 90/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "ts": 1774262535.7220387
+  },
+  "ixigo.com": {
+    "value": "ixigo.com",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 1.92 \u2014 natural language name"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (5 chars) \u2014 typical of established brands"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 63 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "ixigo.com \u2014 Reputation score: 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "ts": 1774346450.802134
+  },
+  "185.220.101.47": {
+    "value": "185.220.101.47",
+    "score": 20,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 75,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".47 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ]
+    ],
+    "sources_used": [
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [],
+    "summary": "185.220.101.47 \u2014 20/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1776157118.0354216
+  },
+  "meta.com": {
+    "value": "meta.com",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.00 \u2014 natural language name"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (4 chars) \u2014 typical of established brands"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 60 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "meta.com \u2014 Reputation score: 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "ts": 1774761842.8947966
+  },
+  "ajd92jd92jd92j[.]com": {
+    "value": "ajd92jd92jd92j[.]com",
+    "score": 40,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.42 \u2014 natural language name"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "ajd92jd92jd92j[.]com \u2014 Reputation score: 40/100 (LOW RISK). Limited enrichment only \u2014 monitor passively.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Limited enrichment only \u2014 monitor passively",
+    "ts": 1774762065.3873925
+  },
+  "xkqowpqlzmxn[.]net": {
+    "value": "xkqowpqlzmxn[.]net",
+    "score": 50,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "xkqowpqlzmxn[.]net \u2014 Reputation score: 50/100 (LOW RISK). Limited enrichment only \u2014 monitor passively.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Limited enrichment only \u2014 monitor passively",
+    "ts": 1774762066.919463
+  },
+  "pqowieuryzxcm[.]biz": {
+    "value": "pqowieuryzxcm[.]biz",
+    "score": 40,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        -10,
+        "\ud83c\udfb2 Medium Entropy",
+        "Label entropy 3.81 \u2014 slightly random"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "pqowieuryzxcm[.]biz \u2014 Reputation score: 40/100 (LOW RISK). Limited enrichment only \u2014 monitor passively.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Limited enrichment only \u2014 monitor passively",
+    "ts": 1774762067.8776767
+  },
+  "asdkjhqwieu123[.]ru": {
+    "value": "asdkjhqwieu123[.]ru",
+    "score": 25,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 75,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -10,
+        "\ud83c\udfb2 Medium Entropy",
+        "Label entropy 3.91 \u2014 slightly random"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT"
+    ],
+    "summary": "asdkjhqwieu123[.]ru \u2014 Reputation score: 25/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "ts": 1774762068.5184488
+  },
+  "demo.testfire.net": {
+    "value": "demo.testfire.net",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.net) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".net \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (4 chars)"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 61 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT: 0 malicious / 61 harmless"
+    ],
+    "summary": "demo.testfire.net \u2014 Reputation: 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774766161.276262
+  },
+  "zero.webappsecurity.com": {
+    "value": "zero.webappsecurity.com",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: security"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (4 chars)"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 60 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT: 0 malicious / 60 harmless"
+    ],
+    "summary": "zero.webappsecurity.com \u2014 Reputation: 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774766161.96407
+  },
+  "newdomain2026.bond": {
+    "value": "newdomain2026.bond",
+    "score": 20,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 70,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".bond \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 digit_ratio=31% (DGA numeric pattern)"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT: unavailable (HTTP Error 404: Not Found)"
+    ],
+    "summary": "newdomain2026.bond \u2014 Reputation: 20/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "decision_engine": "All queried APIs clean (partial positive)",
+    "ts": 1774767465.8688695
+  },
+  "randomtest2026.win": {
+    "value": "randomtest2026.win",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 85,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".win \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.52 (high)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: win"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT: unavailable (HTTP Error 404: Not Found)"
+    ],
+    "summary": "randomtest2026.win \u2014 Reputation: 10/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "All queried APIs clean (partial positive)",
+    "ts": 1774767466.5737977
+  },
+  "malware-test.cyou": {
+    "value": "malware-test.cyou",
+    "score": 50,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".cyou \u2014 TLD reputation unknown"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT: unavailable (HTTP Error 404: Not Found)"
+    ],
+    "summary": "malware-test.cyou \u2014 Reputation: 50/100 (LOW RISK). Monitor passively \u2014 limited enrichment.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "All queried APIs clean (partial positive)",
+    "ts": 1774767467.1925364
+  },
+  "gratsuccessfic.pro": {
+    "value": "gratsuccessfic.pro",
+    "score": 20,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 75,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".pro \u2014 TLD reputation unknown"
+      ],
+      [
+        -30,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 11 malicious detections"
+      ]
+    ],
+    "api_used": [
+      "VT: 11 malicious detections"
+    ],
+    "summary": "gratsuccessfic.pro \u2014 Reputation: 20/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767467.8378148
+  },
+  "youtube.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "youtube.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "decision_engine": "Known-established list \u2014 fast-path SAFE",
+    "ts": 1774767838.2158241
+  },
+  "icici.com": {
+    "value": "icici.com",
+    "score": 70,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        -50,
+        "\u26a0\ufe0f Brand Impersonation",
+        "\u26a0\ufe0f Brand squatting: 'icici' in domain but NOT an official icici domain \u2014 possible impersonation/typosquatting."
+      ],
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com) \u2014 likely established"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "Short alphabetic label (5 chars)"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 62 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT: 0 malicious / 62 harmless"
+    ],
+    "summary": "icici.com \u2014 Reputation: 70/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767839.6158354
+  },
+  "amaz0n.co": {
+    "value": "amaz0n.co",
+    "score": 40,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".co \u2014 TLD reputation unknown"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.25 \u2014 natural language"
+      ],
+      [
+        -40,
+        "\u26a0\ufe0f Typosquatting",
+        "Leet-speak impersonation of amazon"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 60 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT: 0 malicious / 60 harmless"
+    ],
+    "summary": "amaz0n.co \u2014 Reputation: 40/100 (LOW RISK). Monitor passively \u2014 limited enrichment.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767840.2998388
+  },
+  "x7k9p2q4r8t6y3u1z5v9w2x4.com": {
+    "value": "x7k9p2q4r8t6y3u1z5v9w2x4.com",
+    "score": 0,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -50,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA High Confidence \u2014 entropy=4.25 (very high \u2014 random string) | vowel_ratio=4% (too low for real word) | digit_ratio=50% (DGA numeric pattern) | label_length=24 (unusually long)"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "Digit ratio 50% \u2014 DGA/fake domain pattern"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT: unavailable (HTTP Error 404: Not Found)"
+    ],
+    "summary": "x7k9p2q4r8t6y3u1z5v9w2x4.com \u2014 Reputation: 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "High-confidence DGA \u2192 raise confidence | All queried APIs clean (partial positive)",
+    "ts": 1774767841.7775972
+  },
+  "badware.example.tk": {
+    "value": "badware.example.tk",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 85,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.tk) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".tk \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        0,
+        "\ud83d\udd2c VirusTotal",
+        "VT: unavailable (HTTP Error 404: Not Found)"
+      ]
+    ],
+    "api_used": [
+      "VT: unavailable (HTTP Error 404: Not Found)"
+    ],
+    "summary": "badware.example.tk \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "All queried APIs clean (partial positive)",
+    "ts": 1774767842.4919667
+  },
+  "microsoft.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "microsoft.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "decision_engine": "Known-established list \u2014 fast-path SAFE",
+    "ts": 1774767842.5171306
+  },
+  "go0gle.com": {
+    "value": "go0gle.com",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.25 \u2014 natural language"
+      ],
+      [
+        -40,
+        "\u26a0\ufe0f Typosquatting",
+        "Leet-speak impersonation of google"
+      ],
+      [
+        -30,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 8 malicious detections"
+      ]
+    ],
+    "api_used": [
+      "VT: 8 malicious detections"
+    ],
+    "summary": "go0gle.com \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767843.1431227
+  },
+  "faceb00k.com": {
+    "value": "faceb00k.com",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -40,
+        "\u26a0\ufe0f Typosquatting",
+        "Leet-speak impersonation of facebook"
+      ],
+      [
+        -30,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 13 malicious detections"
+      ]
+    ],
+    "api_used": [
+      "VT: 13 malicious detections"
+    ],
+    "summary": "faceb00k.com \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767843.8722315
+  },
+  "micr0soft.com": {
+    "value": "micr0soft.com",
+    "score": 50,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -40,
+        "\u26a0\ufe0f Typosquatting",
+        "Leet-speak impersonation of microsoft"
+      ],
+      [
+        25,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 0 malicious / 59 harmless"
+      ]
+    ],
+    "api_used": [
+      "VT: 0 malicious / 59 harmless"
+    ],
+    "summary": "micr0soft.com \u2014 Reputation: 50/100 (LOW RISK). Monitor passively \u2014 limited enrichment.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767845.664984
+  },
+  "paypa1.com": {
+    "value": "paypa1.com",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 1.92 \u2014 natural language"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: pay"
+      ],
+      [
+        -40,
+        "\u26a0\ufe0f Typosquatting",
+        "Leet-speak impersonation of paypal"
+      ],
+      [
+        -30,
+        "\ud83d\udd2c VirusTotal",
+        "VT: 16 malicious detections"
+      ]
+    ],
+    "api_used": [
+      "VT: 16 malicious detections"
+    ],
+    "summary": "paypa1.com \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774767846.5018837
+  },
+  "amaz0n-login.com": {
+    "value": "amaz0n-login.com",
+    "score": 15,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: login"
+      ],
+      [
+        -40,
+        "\u26a0\ufe0f Typosquatting",
+        "Leet-speak impersonation of amazon"
+      ]
+    ],
+    "api_used": [],
+    "summary": "amaz0n-login.com \u2014 Reputation: 15/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774795189.2351534
+  },
+  "secure-paypal-verification.xyz": {
+    "value": "secure-paypal-verification.xyz",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'paypal' impersonation + auth keywords [secure, verification] \u2014 NOT official domain. Classic credential harvesting pattern."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".xyz \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.84 (high) | label_length=26 (unusually long)"
+      ],
+      [
+        -35,
+        "\ud83c\udfa3 Phishing Keywords",
+        "Multiple phishing keywords: verification, paypal, secure, pay"
+      ],
+      [
+        -15,
+        "\ud83d\udccf Very Long Domain",
+        "Label length 26 chars"
+      ]
+    ],
+    "api_used": [],
+    "summary": "secure-paypal-verification.xyz \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords \u2192 force HIGH SUSPICION | 4 phishing keywords \u2192 raise confidence",
+    "ts": 1774795192.5910034
+  },
+  "login-google-auth.net": {
+    "value": "login-google-auth.net",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'google' impersonation + auth keywords [login, auth] \u2014 NOT official domain. Classic credential harvesting pattern."
+      ],
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".net \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -20,
+        "\ud83c\udfa3 Suspicious Keywords",
+        "Keywords: login, auth"
+      ]
+    ],
+    "api_used": [],
+    "summary": "login-google-auth.net \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords \u2192 force HIGH SUSPICION",
+    "ts": 1774795195.5193803
+  },
+  "update-microsoft-security.com": {
+    "value": "update-microsoft-security.com",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'microsoft' impersonation + auth keywords [security, update] \u2014 NOT official domain. Classic credential harvesting pattern."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.81 (high) | label_length=25 (unusually long)"
+      ],
+      [
+        -20,
+        "\ud83c\udfa3 Suspicious Keywords",
+        "Keywords: security, update"
+      ]
+    ],
+    "api_used": [],
+    "summary": "update-microsoft-security.com \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords \u2192 force HIGH SUSPICION",
+    "ts": 1774795198.2125502
+  },
+  "apple-id-confirm.net": {
+    "value": "apple-id-confirm.net",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'apple' impersonation + auth keywords [confirm] \u2014 NOT official domain. Classic credential harvesting pattern."
+      ],
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".net \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.62 (high)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: confirm"
+      ]
+    ],
+    "api_used": [],
+    "summary": "apple-id-confirm.net \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords \u2192 force HIGH SUSPICION",
+    "ts": 1774795200.8710217
+  },
+  "netflix-account-secure.com": {
+    "value": "netflix-account-secure.com",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'netflix' impersonation + auth keywords [account, secure] \u2014 NOT official domain. Classic credential harvesting pattern."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.66 (high) | label_length=22 (unusually long)"
+      ],
+      [
+        -20,
+        "\ud83c\udfa3 Suspicious Keywords",
+        "Keywords: account, secure"
+      ]
+    ],
+    "api_used": [],
+    "summary": "netflix-account-secure.com \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords \u2192 force HIGH SUSPICION",
+    "ts": 1774795214.7589016
+  },
+  "free-gift-card.tk": {
+    "value": "free-gift-card.tk",
+    "score": 39,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 80,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.tk) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".tk \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -20,
+        "\ud83c\udfa3 Suspicious Keywords",
+        "Keywords: free, gift"
+      ],
+      [
+        30,
+        "\u2705 VirusTotal",
+        "0 malicious / 43 harmless"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "free-gift-card.tk \u2014 Reputation: 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": true,
+    "action": "Full investigation recommended",
+    "decision_engine": "Abused TLD + phishing keyword convergence | All queried APIs clean (partial positive)",
+    "ts": 1774804035.351625
+  },
+  "crypto-airdrop.ml": {
+    "value": "crypto-airdrop.ml",
+    "score": 10,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.ml) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".ml \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: crypto"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "crypto-airdrop.ml \u2014 Reputation: 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": true,
+    "action": "Immediate investigation",
+    "decision_engine": "Abused TLD + phishing keyword convergence",
+    "ts": 1774804036.5366118
+  },
+  "win-prize-now.ga": {
+    "value": "win-prize-now.ga",
+    "score": 10,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.ga) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".ga \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: win"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "win-prize-now.ga \u2014 Reputation: 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": true,
+    "action": "Immediate investigation",
+    "decision_engine": "Abused TLD + phishing keyword convergence",
+    "ts": 1774804037.4193351
+  },
+  "bonus-offer.cf": {
+    "value": "bonus-offer.cf",
+    "score": 10,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.cf) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".cf \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: bonus"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "bonus-offer.cf \u2014 Reputation: 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": true,
+    "action": "Immediate investigation",
+    "decision_engine": "Abused TLD + phishing keyword convergence",
+    "ts": 1774804038.522827
+  },
+  "cheap-deals.gq": {
+    "value": "cheap-deals.gq",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.gq) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".gq \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "cheap-deals.gq \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": true,
+    "action": "Immediate investigation",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774804039.4777179
+  },
+  "malware-c2.ml": {
+    "value": "malware-c2.ml",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.ml) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".ml \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "malware-c2.ml \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": true,
+    "action": "Immediate investigation",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774804040.9524148
+  },
+  "phishing-login.tk": {
+    "value": "phishing-login.tk",
+    "score": 39,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 80,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.tk) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".tk \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: login"
+      ],
+      [
+        30,
+        "\u2705 VirusTotal",
+        "0 malicious / 59 harmless"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "phishing-login.tk \u2014 Reputation: 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": true,
+    "action": "Full investigation recommended",
+    "decision_engine": "Abused TLD + phishing keyword convergence | All queried APIs clean (partial positive)",
+    "ts": 1774804041.8382282
+  },
+  "amazon.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "amazon.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "decision_engine": "Known-established list \u2014 fast-path SAFE",
+    "ts": 1774795469.7368546
+  },
+  "github.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "github.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "decision_engine": "Known-established list \u2014 fast-path SAFE",
+    "ts": 1774795474.5162838
+  },
+  "stackoverflow.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "stackoverflow.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "decision_engine": "Known-established list \u2014 fast-path SAFE",
+    "ts": 1774795483.3825378
+  },
+  "cloudflare.com": {
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 5,
+    "signals": [
+      [
+        80,
+        "\u2705 Established Domain",
+        "known-established-domain"
+      ]
+    ],
+    "summary": "cloudflare.com is a well-established, trusted domain.",
+    "safe": true,
+    "from_cache": false,
+    "decision_engine": "Known-established list \u2014 fast-path SAFE",
+    "ts": 1774795490.8581097
+  },
+  "criccbuzz.com": {
+    "value": "criccbuzz.com",
+    "score": 70,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.42 \u2014 natural language"
+      ]
+    ],
+    "api_used": [],
+    "summary": "criccbuzz.com \u2014 Reputation: 70/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774800655.5926044
+  },
+  "amaz0n.co        # tricky typo + legit tld": {
+    "value": "amaz0n.co        # tricky typo + legit tld",
+    "score": 15,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".co        # tricky typo + legit tld \u2014 TLD reputation unknown"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 2.25 \u2014 natural language"
+      ],
+      [
+        -40,
+        "\u26a0\ufe0f Typosquatting",
+        "Leet-speak impersonation of amazon"
+      ]
+    ],
+    "api_used": [],
+    "summary": "amaz0n.co        # tricky typo + legit tld \u2014 Reputation: 15/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774803779.4837985
+  },
+  "g00gle.net       # typo + different tld": {
+    "value": "g00gle.net       # typo + different tld",
+    "score": 15,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".net       # typo + different tld \u2014 TLD reputation unknown"
+      ],
+      [
+        5,
+        "\ud83d\udcdd Natural Name",
+        "Low entropy 1.92 \u2014 natural language"
+      ],
+      [
+        -40,
+        "\u26a0\ufe0f Typosquatting",
+        "Leet-speak impersonation of google"
+      ]
+    ],
+    "api_used": [],
+    "summary": "g00gle.net       # typo + different tld \u2014 Reputation: 15/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774803779.5843694
+  },
+  "paypal-secure.com": {
+    "value": "paypal-secure.com",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'paypal' impersonation + auth keywords [secure] \u2014 NOT official domain. Classic credential harvesting pattern."
+      ],
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -35,
+        "\ud83c\udfa3 Phishing Keywords",
+        "Multiple phishing keywords: paypal, secure, pay"
+      ],
+      [
+        -40,
+        "\ud83d\udd34 VirusTotal",
+        "6 malicious detections"
+      ],
+      [
+        -30,
+        "\ud83d\udd34 OTX AlienVault",
+        "4 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "paypal-secure.com \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774803782.5315108
+  },
+  "login-amazon.co": {
+    "value": "login-amazon.co",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'amazon' impersonation + auth keywords [login] \u2014 NOT official domain. Classic credential harvesting pattern."
+      ],
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".co \u2014 TLD reputation unknown"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: login"
+      ],
+      [
+        -40,
+        "\ud83d\udd34 VirusTotal",
+        "8 malicious detections"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "login-amazon.co \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation",
+    "decision_engine": "Standard heuristic scoring",
+    "ts": 1774803783.534887
+  },
+  "microsoft-support.org": {
+    "value": "microsoft-support.org",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 85,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'microsoft' impersonation + auth keywords [support] \u2014 NOT official domain. Classic credential harvesting pattern."
+      ],
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".org \u2014 trusted TLD (low abuse history)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: support"
+      ],
+      [
+        -20,
+        "\u26a0\ufe0f VirusTotal",
+        "2 malicious detections"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "microsoft-support.org \u2014 Reputation: 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation",
+    "decision_engine": "All queried APIs clean (partial positive)",
+    "ts": 1774803784.597779
+  },
+  "workstation-01": {
+    "value": "workstation-01",
+    "score": 20,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 75,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ". \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.52 (high)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "TLDEngine",
+      "DGAEngine",
+      "AgeHeuristic"
+    ],
+    "api_used": [],
+    "summary": "workstation-01 \u2014 20/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775119523.1983805
+  },
+  "wazuh.manager": {
+    "value": "wazuh.manager",
+    "score": 45,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".manager \u2014 TLD reputation unknown"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "5 chars"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ]
+    ],
+    "sources_used": [
+      "AgeHeuristic",
+      "TLDEngine",
+      "PassiveDNS"
+    ],
+    "api_used": [],
+    "summary": "wazuh.manager \u2014 45/100 (LOW RISK). Monitor passively \u2014 limited enrichment.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1776919454.0666482
+  },
+  "192.168.10.108": {
+    "value": "192.168.10.108",
+    "score": 80,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".108 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ],
+      [
+        60,
+        "\ud83c\udfe0 Private IP",
+        "Internal/private network"
+      ]
+    ],
+    "sources_used": [
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [],
+    "summary": "192.168.10.108 \u2014 80/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775206508.8350668
+  },
+  "malware-test-domain.example.com": {
+    "value": "malware-test-domain.example.com",
+    "score": 30,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 75,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.58 (high)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "malware-test-domain.example.com \u2014 20/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274960.8497381
+  },
+  "phishing-bank-login.ru": {
+    "value": "phishing-bank-login.ru",
+    "score": 10,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -40,
+        "\ud83c\udf10 TLD Reputation",
+        ".ru \u2014 HIGH abuse TLD (risk weight: -40)"
+      ],
+      [
+        -20,
+        "\ud83c\udfa3 Suspicious Keywords",
+        "Keywords: login, bank"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "PhishingKW",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "phishing-bank-login.ru \u2014 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Abused TLD + phishing keyword",
+    "_brand_critical": false,
+    "ts": 1775274965.1967664
+  },
+  "evil-c2-server.top": {
+    "value": "evil-c2-server.top",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.top) \u2014 commonly new/malicious"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".top \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "evil-c2-server.top \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274972.3970017
+  },
+  "trojan-downloader.xyz": {
+    "value": "trojan-downloader.xyz",
+    "score": 40,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.xyz) \u2014 commonly new/malicious"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".xyz \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        30,
+        "\u2705 VirusTotal",
+        "0 malicious / 58 harmless"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "trojan-downloader.xyz \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274974.467385
+  },
+  "ransomware-c2.onion.to": {
+    "value": "ransomware-c2.onion.to",
+    "score": 45,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".to \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "ransomware-c2.onion.to \u2014 35/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274976.8067453
+  },
+  "fake-amazon-order.com": {
+    "value": "fake-amazon-order.com",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -50,
+        "\u26a0\ufe0f Brand Impersonation",
+        "\u26a0\ufe0f Brand squatting: 'amazon' in domain but NOT an official amazon domain."
+      ],
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "fake-amazon-order.com \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274978.963907
+  },
+  "paypal-secure-verify.net": {
+    "value": "paypal-secure-verify.net",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'paypal' impersonation + auth keywords [secure, verify] \u2014 NOT official domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".net \u2014 trusted TLD"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.58 (high)"
+      ],
+      [
+        -35,
+        "\ud83c\udfa3 Phishing Keywords",
+        "Multiple phishing keywords: pay, verify, paypal, secure"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "PhishingKW",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "paypal-secure-verify.net \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords",
+    "_brand_critical": true,
+    "ts": 1775274980.640897
+  },
+  "microsoft-update-malicious.top": {
+    "value": "microsoft-update-malicious.top",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'microsoft' impersonation + auth keywords [update] \u2014 NOT official domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".top \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.80 (high) | label_length=26"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: update"
+      ],
+      [
+        -15,
+        "\ud83d\udccf Very Long Domain",
+        "26 chars"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "microsoft-update-malicious.top \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords | 2 phishing kws + risky TLD \u2192 force SUSPICIOUS | 4 converging signals \u2192 confidence boost",
+    "_brand_critical": true,
+    "ts": 1775274982.8557844
+  },
+  "bankofamerica-alert.org": {
+    "value": "bankofamerica-alert.org",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -50,
+        "\u26a0\ufe0f Brand Impersonation",
+        "\u26a0\ufe0f Brand squatting: 'bankofamerica' in domain but NOT an official bankofamerica domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".org \u2014 trusted TLD"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.62 (high)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: bank"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "bankofamerica-alert.org \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274984.403109
+  },
+  "google-drive-share-malware.com": {
+    "value": "google-drive-share-malware.com",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -50,
+        "\u26a0\ufe0f Brand Impersonation",
+        "\u26a0\ufe0f Brand squatting: 'google' in domain but NOT an official google domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.61 (high) | label_length=26"
+      ],
+      [
+        -15,
+        "\ud83d\udccf Very Long Domain",
+        "26 chars"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "google-drive-share-malware.com \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274985.7476342
+  },
+  "login-secure-2026.ru": {
+    "value": "login-secure-2026.ru",
+    "score": 10,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -40,
+        "\ud83c\udf10 TLD Reputation",
+        ".ru \u2014 HIGH abuse TLD (risk weight: -40)"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.73 (high)"
+      ],
+      [
+        -20,
+        "\ud83c\udfa3 Suspicious Keywords",
+        "Keywords: secure, login"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "PhishingKW",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "login-secure-2026.ru \u2014 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Abused TLD + phishing keyword",
+    "_brand_critical": false,
+    "ts": 1775274987.7254052
+  },
+  "update-windows-security.buzz": {
+    "value": "update-windows-security.buzz",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".buzz \u2014 TLD reputation unknown"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.83 (high) | label_length=23"
+      ],
+      [
+        -35,
+        "\ud83c\udfa3 Phishing Keywords",
+        "Multiple phishing keywords: update, security, win"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "PhishingKW",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "update-windows-security.buzz \u2014 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274990.4365947
+  },
+  "apple-id-verify.ga": {
+    "value": "apple-id-verify.ga",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'apple' impersonation + auth keywords [verify] \u2014 NOT official domain."
+      ],
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.ga) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".ga \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: verify"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "apple-id-verify.ga \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords | 2 phishing kws + risky TLD \u2192 force SUSPICIOUS | Abused TLD + phishing keyword | 3 converging signals \u2192 confidence boost",
+    "_brand_critical": true,
+    "ts": 1775274994.308803
+  },
+  "chase-bank-security.ml": {
+    "value": "chase-bank-security.ml",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'chase' impersonation + auth keywords [security] \u2014 NOT official domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".ml \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.72 (high)"
+      ],
+      [
+        -20,
+        "\ud83c\udfa3 Suspicious Keywords",
+        "Keywords: security, bank"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "PhishingKW",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "chase-bank-security.ml \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords | 2 phishing kws + risky TLD \u2192 force SUSPICIOUS | Abused TLD + phishing keyword | 3 converging signals \u2192 confidence boost",
+    "_brand_critical": true,
+    "ts": 1775274996.1866815
+  },
+  "dropbox-malicious-link.cf": {
+    "value": "dropbox-malicious-link.cf",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -50,
+        "\u26a0\ufe0f Brand Impersonation",
+        "\u26a0\ufe0f Brand squatting: 'dropbox' in domain but NOT an official dropbox domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".cf \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.85 (high) | label_length=22"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "dropbox-malicious-link.cf \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775274998.494496
+  },
+  "steam-account-hack.top": {
+    "value": "steam-account-hack.top",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'steam' impersonation + auth keywords [account] \u2014 NOT official domain."
+      ],
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.top) \u2014 commonly new/malicious"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".top \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: account"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "steam-account-hack.top \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords | 2 phishing kws + risky TLD \u2192 force SUSPICIOUS | 3 converging signals \u2192 confidence boost",
+    "_brand_critical": true,
+    "ts": 1775275000.3476367
+  },
+  "facebook-login-fake.xyz": {
+    "value": "facebook-login-fake.xyz",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'facebook' impersonation + auth keywords [login] \u2014 NOT official domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".xyz \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: login"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "facebook-login-fake.xyz \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords | 2 phishing kws + risky TLD \u2192 force SUSPICIOUS | 3 converging signals \u2192 confidence boost",
+    "_brand_critical": true,
+    "ts": 1775275001.7050612
+  },
+  "instagram-verify-malware.com": {
+    "value": "instagram-verify-malware.com",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'instagram' impersonation + auth keywords [verify] \u2014 NOT official domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.72 (high) | label_length=24"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: verify"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "instagram-verify-malware.com \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords | 3 converging signals \u2192 confidence boost",
+    "_brand_critical": true,
+    "ts": 1775275003.0712059
+  },
+  "netflix-account-suspended.ru": {
+    "value": "netflix-account-suspended.ru",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -70,
+        "\ud83d\udea8 Brand Impersonation + Auth Keywords",
+        "\ud83d\udea8 PHISHING LIKELY: 'netflix' impersonation + auth keywords [account] \u2014 NOT official domain."
+      ],
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -40,
+        "\ud83c\udf10 TLD Reputation",
+        ".ru \u2014 HIGH abuse TLD (risk weight: -40)"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.78 (high) | label_length=25"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: account"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "netflix-account-suspended.ru \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Brand impersonation + auth keywords | 2 phishing kws + risky TLD \u2192 force SUSPICIOUS | Abused TLD + phishing keyword | 4 converging signals \u2192 confidence boost",
+    "_brand_critical": true,
+    "ts": 1775275004.8923955
+  },
+  "amazon-prime-scam.top": {
+    "value": "amazon-prime-scam.top",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -50,
+        "\u26a0\ufe0f Brand Impersonation",
+        "\u26a0\ufe0f Brand squatting: 'amazon' in domain but NOT an official amazon domain."
+      ],
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.top) \u2014 commonly new/malicious"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".top \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "BrandEngine",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "amazon-prime-scam.top \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275006.5290978
+  },
+  "malicious-redirect.buzz": {
+    "value": "malicious-redirect.buzz",
+    "score": 30,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 75,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".buzz \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.57 (high)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "malicious-redirect.buzz \u2014 20/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275008.7016325
+  },
+  "c2-beacon-domain.xyz": {
+    "value": "c2-beacon-domain.xyz",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.xyz) \u2014 commonly new/malicious"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".xyz \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "c2-beacon-domain.xyz \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275010.352363
+  },
+  "phishing-kit-host.top": {
+    "value": "phishing-kit-host.top",
+    "score": 0,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.top) \u2014 commonly new/malicious"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".top \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ]
+    ],
+    "sources_used": [
+      "AgeHeuristic",
+      "TLDEngine",
+      "PassiveDNS",
+      "VirusTotal"
+    ],
+    "api_used": [
+      "VirusTotal"
+    ],
+    "summary": "phishing-kit-host.top \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275015.9104462
+  },
+  "malware-distribution.ga": {
+    "value": "malware-distribution.ga",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".ga \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.78 (high)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "malware-distribution.ga \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275017.532563
+  },
+  "suspicious-dga-domain.ml": {
+    "value": "suspicious-dga-domain.ml",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".ml \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "suspicious-dga-domain.ml \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275018.9539998
+  },
+  "trojan-c2-server.cf": {
+    "value": "trojan-c2-server.cf",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -35,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "High-abuse TLD (.cf) \u2014 commonly new/malicious"
+      ],
+      [
+        -50,
+        "\ud83c\udf10 TLD Reputation",
+        ".cf \u2014 EXTREME abuse TLD (risk weight: -50)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "trojan-c2-server.cf \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275020.4975338
+  },
+  "ransomware-payment-portal.onion": {
+    "value": "ransomware-payment-portal.onion",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".onion \u2014 TLD reputation unknown"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.57 (high) | label_length=25"
+      ],
+      [
+        -35,
+        "\ud83c\udfa3 Phishing Keywords",
+        "Multiple phishing keywords: pay, portal, payment"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "PhishingKW",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "ransomware-payment-portal.onion \u2014 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275021.6124613
+  },
+  "fake-tech-support-scam.com": {
+    "value": "fake-tech-support-scam.com",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        -30,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Likely \u2014 entropy=3.70 (high) | label_length=22"
+      ],
+      [
+        -10,
+        "\ud83c\udfa3 Keyword Match",
+        "Keyword: support"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "fake-tech-support-scam.com \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275023.0520976
+  },
+  "credential-harvester.net": {
+    "value": "credential-harvester.net",
+    "score": 45,
+    "verdict": "LOW RISK",
+    "severity": "low",
+    "confidence_cap": 30,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".net \u2014 trusted TLD"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "credential-harvester.net \u2014 35/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Monitor passively \u2014 limited enrichment",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275024.8740382
+  },
+  "malicious-ad-server.top": {
+    "value": "malicious-ad-server.top",
+    "score": 10,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        -30,
+        "\ud83c\udf10 TLD Reputation",
+        ".top \u2014 MEDIUM abuse TLD (risk weight: -30)"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.62 (high)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ],
+      [
+        10,
+        "\u2705 OTX AlienVault",
+        "0 malicious pulses"
+      ]
+    ],
+    "sources_used": [
+      "PassiveDNS",
+      "VirusTotal",
+      "DGAEngine",
+      "OTX",
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [
+      "VirusTotal",
+      "OTX"
+    ],
+    "summary": "malicious-ad-server.top \u2014 0/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775275026.4463134
+  },
+  "192.168.1.6": {
+    "value": "192.168.1.6",
+    "score": 80,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".6 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ],
+      [
+        60,
+        "\ud83c\udfe0 Private IP",
+        "Internal/private network"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "AgeHeuristic"
+    ],
+    "api_used": [],
+    "summary": "192.168.1.6 \u2014 80/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775304353.348452
+  },
+  "192.168.10.169": {
+    "value": "192.168.10.169",
+    "score": 80,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".169 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ],
+      [
+        60,
+        "\ud83c\udfe0 Private IP",
+        "Internal/private network"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "AgeHeuristic"
+    ],
+    "api_used": [],
+    "summary": "192.168.10.169 \u2014 80/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1776069796.9537013
+  },
+  "netsec-ai-dashboard": {
+    "value": "netsec-ai-dashboard",
+    "score": 5,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ". \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA Possible \u2014 entropy=3.58 (high)"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "PassiveDNS",
+      "AgeHeuristic",
+      "DGAEngine"
+    ],
+    "api_used": [],
+    "summary": "netsec-ai-dashboard \u2014 5/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775807220.5830965
+  },
+  "6.0.0.0": {
+    "value": "6.0.0.0",
+    "score": 35,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 75,
+    "signals": [
+      [
+        0,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Age unknown"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".0 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "AgeHeuristic"
+    ],
+    "api_used": [],
+    "summary": "6.0.0.0 \u2014 35/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775807674.9056296
+  },
+  "127.0.0.1:8088": {
+    "value": "127.0.0.1:8088",
+    "score": 5,
+    "verdict": "HIGH SUSPICION",
+    "severity": "high",
+    "confidence_cap": 90,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".1:8088 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ],
+      [
+        -15,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: NXDOMAIN \u2014 domain does not resolve (dead/newly registered)"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "PassiveDNS",
+      "AgeHeuristic"
+    ],
+    "api_used": [],
+    "summary": "127.0.0.1:8088 \u2014 5/100 (HIGH SUSPICION). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1775813679.5482872
+  },
+  "185.220.101.45": {
+    "value": "185.220.101.45",
+    "score": 20,
+    "verdict": "SUSPICIOUS",
+    "severity": "medium",
+    "confidence_cap": 75,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".45 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "AgeHeuristic"
+    ],
+    "api_used": [],
+    "summary": "185.220.101.45 \u2014 20/100 (SUSPICIOUS). Full investigation recommended.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Full investigation recommended",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1776586020.9400191
+  },
+  "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.11%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now": {
+    "value": "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.11%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now",
+    "score": 0,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".11%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now \u2014 TLD reputation unknown"
+      ],
+      [
+        -50,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA High Confidence \u2014 entropy=4.89 (very high) | consonant_clusters=2 | label_length=132"
+      ],
+      [
+        -15,
+        "\ud83d\udccf Very Long Domain",
+        "132 chars"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "AgeHeuristic",
+      "DGAEngine"
+    ],
+    "api_used": [],
+    "summary": "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.11%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now \u2014 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "High-confidence DGA",
+    "_brand_critical": false,
+    "ts": 1776597654.7848096
+  },
+  "gmail.com": {
+    "value": "gmail.com",
+    "score": 100,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        20,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Short clean label on trusted TLD (.com)"
+      ],
+      [
+        15,
+        "\ud83c\udf10 TLD Reputation",
+        ".com \u2014 trusted TLD"
+      ],
+      [
+        10,
+        "\ud83d\udccf Short Clean Name",
+        "5 chars"
+      ],
+      [
+        5,
+        "\ud83c\udf10 DNS Resolution",
+        "DNS: resolves \u2014 domain exists"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "AgeHeuristic",
+      "PassiveDNS"
+    ],
+    "api_used": [],
+    "summary": "gmail.com \u2014 100/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1776597654.8255851
+  },
+  "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.12%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now": {
+    "value": "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.12%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now",
+    "score": 0,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".12%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now \u2014 TLD reputation unknown"
+      ],
+      [
+        -50,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA High Confidence \u2014 entropy=4.89 (very high) | consonant_clusters=2 | label_length=132"
+      ],
+      [
+        -15,
+        "\ud83d\udccf Very Long Domain",
+        "132 chars"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "AgeHeuristic",
+      "DGAEngine"
+    ],
+    "api_used": [],
+    "summary": "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.12%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now \u2014 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "High-confidence DGA",
+    "_brand_critical": false,
+    "ts": 1776597659.8239746
+  },
+  "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.24%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now": {
+    "value": "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.24%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now",
+    "score": 0,
+    "verdict": "SUSPICIOUS",
+    "severity": "high",
+    "confidence_cap": 99,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".24%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now \u2014 TLD reputation unknown"
+      ],
+      [
+        -50,
+        "\ud83c\udfb2 DGA Detection",
+        "\ud83e\udd16 DGA High Confidence \u2014 entropy=4.89 (very high) | consonant_clusters=2 | label_length=132"
+      ],
+      [
+        -15,
+        "\ud83d\udccf Very Long Domain",
+        "132 chars"
+      ]
+    ],
+    "sources_used": [
+      "TLDEngine",
+      "AgeHeuristic",
+      "DGAEngine"
+    ],
+    "api_used": [],
+    "summary": "http://lonewarrior:8001/app/search/search?q=%7cloadjob%20rt_scheduler_zgv2yw5zagphaw4ymdlaz21hawwuy29t__search__soc_at_1776582075_12.24%20%7c%20head%201%20%7c%20tail%201&earliest=0&latest=now \u2014 0/100 (SUSPICIOUS). Immediate investigation \u2014 strong malicious signals.",
+    "safe": false,
+    "from_cache": false,
+    "action": "Immediate investigation \u2014 strong malicious signals",
+    "decision_engine": "High-confidence DGA",
+    "_brand_critical": false,
+    "ts": 1776597719.3283565
+  },
+  "192.168.1.7": {
+    "value": "192.168.1.7",
+    "score": 80,
+    "verdict": "SAFE",
+    "severity": "informational",
+    "confidence_cap": 10,
+    "signals": [
+      [
+        -15,
+        "\ud83d\udcc5 Domain Age Estimate",
+        "Long/numeric label \u2014 possibly newly registered"
+      ],
+      [
+        0,
+        "\ud83c\udf10 TLD Reputation",
+        ".7 \u2014 TLD reputation unknown"
+      ],
+      [
+        -15,
+        "\ud83d\udd22 High Digit Ratio",
+        "100%"
+      ],
+      [
+        60,
+        "\ud83c\udfe0 Private IP",
+        "Internal/private network"
+      ]
+    ],
+    "sources_used": [
+      "AgeHeuristic",
+      "TLDEngine"
+    ],
+    "api_used": [],
+    "summary": "192.168.1.7 \u2014 80/100 (SAFE). No action required \u2014 strong reputation signals.",
+    "safe": true,
+    "from_cache": false,
+    "action": "No action required \u2014 strong reputation signals",
+    "decision_engine": "Standard heuristic scoring",
+    "_brand_critical": false,
+    "ts": 1776919451.5088065
+  }
+}

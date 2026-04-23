@@ -1,0 +1,10 @@
+2026-04-17 09:09:37,108 - streamlit_app - INFO - Logger initialized
+2026-04-17 09:09:37,529 - streamlit_app - WARNING - splunk_handler not found – Splunk integration disabled.
+2026-04-17 14:25:56,144 - streamlit_app - INFO - Logger initialized
+2026-04-17 14:25:56,195 - streamlit_app - WARNING - splunk_handler not found – Splunk integration disabled.
+2026-04-17 14:33:06,203 - streamlit_app - WARNING - enterprise.py not found: No module named 'enterprise'
+2026-04-17 14:33:06,235 - streamlit_app - WARNING - zeek_sysmon.py not found: No module named 'zeek_sysmon'
+2026-04-17 14:33:06,302 - streamlit_app - WARNING - n8n_agent not loaded: n8n_agent.py not found in any expected location
+2026-04-17 14:33:06,395 - streamlit_app - WARNING - threat_intel.py not found: No module named 'threat_intel'
+2026-04-17 14:33:58,090 - streamlit_app - INFO - nmap module loaded and binary confirmed reachable
+2026-04-17 14:33:58,095 - streamlit_app - INFO - whois module ready using attribute: 'whois'
