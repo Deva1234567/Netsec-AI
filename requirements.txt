@@ -1,38 +1,18 @@
-# NetSec AI — Requirements
-# Install with: pip install -r requirements.txt
-
-# ── Core UI ────────────────────────────────────────────────────────────────────
 streamlit
 streamlit-folium
-
-# ── AI / LLM ───────────────────────────────────────────────────────────────────
-anthropic
-groq
-openai
-
-# ── Data & Visualization ───────────────────────────────────────────────────────
 pandas
+numpy
 plotly
 folium
-
-# ── Networking & APIs ──────────────────────────────────────────────────────────
 requests
 urllib3
-
-# ── PDF / Document Generation ─────────────────────────────────────────────────
-reportlab
-fpdf2
-
-# ── Packet Capture (optional — comment out if not needed) ─────────────────────
 scapy
-
-# ── GeoIP ─────────────────────────────────────────────────────────────────────
+python-nmap
 geoip2
-maxminddb
-
-# ── Environment & Config ──────────────────────────────────────────────────────
+python-whois
+reportlab
+scikit-learn
+joblib
 python-dotenv
-
-# ── Utilities ─────────────────────────────────────────────────────────────────
-python-dateutil
-pytz
+selenium
+pyzmq
