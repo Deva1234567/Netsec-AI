@@ -4952,204 +4952,113 @@ def render_api_config():
 
     config = get_api_config()
 
-    _api_tabs = st.tabs(["🔗 IONX Setup Wizard", "🔑 API Keys", "🛡️ Security Model"])
+    _api_tabs = st.tabs(["\U0001f511 API Keys", "\U0001f6e1\ufe0f Security Model"])
 
-    # ── Feature 8: IONX Integration Configurator ────────────────────────────
     with _api_tabs[0]:
-        st.subheader("🔗 IONX Integration Setup Wizard")
-        st.caption(
-            "Doc 3: 'Leverage IONX infra for testing. Ask permission as discussed.' "
-            "This wizard walks you through connecting your IONX lab environment "
-            "step-by-step — Splunk, Wazuh, Elastic, n8n — with copy-paste configs, "
-            "connection tests, and exact commands for the IONX VM setup. "
-            "Target: fully integrated with IONX infra in 30 minutes."
-        )
-        import datetime as _dtix
+        # Demo mode toggle
+        config["use_demo_mode"] = st.toggle(
+            "\U0001f3ac Use Demo Mode (recommended for public deployment)",
+            value=config.get("use_demo_mode", True),
+            help="In demo mode, pre-built sample data is shown. Add your own keys for live data.", key="dtct_tgl_1")
 
-        st.markdown(
-            "<div style='background:#0a0810;border:1px solid #cc00ff22;border-left:3px solid #cc00ff;"
-            "border-radius:0 8px 8px 0;padding:10px 14px;margin:8px 0'>"
-            "<span style='color:#cc00ff;font-size:.75rem;font-weight:700;letter-spacing:1px'>"
-            "🔗 IONX INTERNSHIP INTEGRATION GUIDE</span>"
-            "<span style='color:#441155;font-size:.7rem;margin-left:12px'>"
-            "Step-by-step setup for IONX lab infrastructure. "
-            "Ask IONX supervisors for VM access and API credentials as discussed.</span>"
-            "</div>", unsafe_allow_html=True)
-
-        _IONX_STEPS = [
-            {"step":1,"title":"Request IONX Lab VM Access",
-             "desc":"Email supervisor: Requesting access to IONX security lab VM for NetSec AI integration testing.",
-             "cmd":None,"test":None,"status_key":"ix_step1"},
-            {"step":2,"title":"Clone NetSec AI to IONX VM",
-             "desc":"SSH into IONX lab VM and clone the repository.",
-             "cmd":"ssh user@ionx-lab-vm\ngit clone https://github.com/yourusername/netsec-ai-soc.git\ncd netsec-ai-soc\npip install -r requirements.txt",
-             "test":None,"status_key":"ix_step2"},
-            {"step":3,"title":"Connect to Splunk (if available on IONX)",
-             "desc":"Configure Splunk HEC. Ask IONX supervisor for HEC token and index name.",
-             "cmd":"# In .env file:\nSPLUNK_HEC_URL=https://ionx-splunk:8088/services/collector\nSPLUNK_HEC_TOKEN=<token>\nSPLUNK_INDEX=ids_alerts",
-             "test":"Go to SIEM Dashboard → Test Splunk Connection","status_key":"ix_step3"},
-            {"step":4,"title":"Connect to Wazuh SIEM (alternative)",
-             "desc":"Wazuh is free and perfect for IONX lab. Install on same VM.",
-             "cmd":"docker run -d --name wazuh -p 1514:1514/udp -p 55000:55000 wazuh/wazuh-odfe:4.5.4\n# Then: WAZUH_API_URL=https://localhost:55000",
-             "test":"Check Data Pipeline → Sources → Wazuh status","status_key":"ix_step4"},
-            {"step":5,"title":"Send Real IONX Log Samples for Accuracy Validation",
-             "desc":"Get 30-day log samples from IONX SOC. Run them through detection engine. Measure real FP rate.",
-             "cmd":"# Export from Splunk:\nindex=ids_alerts earliest=-30d | table _time src_ip dest_ip signature severity | outputcsv ionx_30day_logs.csv",
-             "test":"Data Pipeline → Ingest File → upload ionx_30day_logs.csv → run accuracy check","status_key":"ix_step5"},
-            {"step":6,"title":"Run Workflow Validation on IONX Infrastructure",
-             "desc":"Run end-to-end workflow validation on real IONX data to measure actual MTTD/MTTR.",
-             "cmd":None,"test":"Triage Autopilot → Workflow Validation → Run Validation on GuLoader scenario","status_key":"ix_step6"},
-            {"step":7,"title":"Generate Benchmark Report for IONX Mentors",
-             "desc":"After validation, generate the accuracy benchmark report and share with supervisors for peer review.",
-             "cmd":None,"test":"SOC Metrics → Accuracy Scorecard → Generate Benchmark Report → share URL","status_key":"ix_step7"},
-        ]
-
-        _ix_completed = sum(1 for s in _IONX_STEPS if st.session_state.get(s["status_key"], False))
-        st.progress(_ix_completed/len(_IONX_STEPS), text=f"IONX Integration: {_ix_completed}/{len(_IONX_STEPS)} steps complete")
-
-        for _s in _IONX_STEPS:
-            _done = st.session_state.get(_s["status_key"], False)
-            _sc   = "#00c878" if _done else "#cc00ff"
-            with st.container(border=True):
-                st.markdown(f"<span style='color:#8899cc;font-size:.78rem'>{_s['desc']}</span>", unsafe_allow_html=True)
-                if _s["cmd"]:
-                    st.code(_s["cmd"], language="bash")
-                if _s["test"]:
-                    st.markdown(f"<span style='color:#cc00ff;font-size:.72rem'>🧪 Test: {_s['test']}</span>", unsafe_allow_html=True)
-                _done_toggle = st.checkbox("Mark as complete", value=_done, key=f"chk_{_s['status_key']}")
-                st.session_state[_s["status_key"]] = _done_toggle
-
-        if _ix_completed == len(_IONX_STEPS):
-            st.success("🎉 IONX integration complete! Platform is live on IONX infrastructure. Share URL with supervisors.")
+        if config["use_demo_mode"]:
+            st.info("**Demo Mode active** \u2014 all features work with sample data. No API keys needed.")
         else:
-            st.info(f"Next: Step {_ix_completed+1} — {_IONX_STEPS[min(_ix_completed, len(_IONX_STEPS)-1)]['title']}")
+            st.warning("**Live Mode** \u2014 enter your API keys below for real data.")
 
-    with _api_tabs[1]:
-        st.markdown("#### 🛡️ Security Model")
-        col_sec1, col_sec2, col_sec3 = st.columns(3)
-        col_sec1.success("✅ Keys stored in browser only")
-        col_sec2.success("✅ Never logged or persisted")
-        col_sec3.success("✅ Cleared on tab close")
         st.divider()
+        st.subheader("Threat Intelligence Keys")
+        ti1, ti2 = st.columns(2)
+        with ti1:
+            config["abuseipdb_key"]  = st.text_input("AbuseIPDB Key",  config.get("abuseipdb_key",""),  type="password",
+                                                        help="abuseipdb.com/account/api \u2014 free: 1000/day")
+            config["shodan_key"]     = st.text_input("Shodan Key",     config.get("shodan_key",""),     type="password",
+                                                        help="account.shodan.io \u2014 free: 100/month")
+            config["greynoise_key"]  = st.text_input("GreyNoise Key",  config.get("greynoise_key",""),  type="password",
+                                                        help="viz.greynoise.io \u2014 free: 50/day (optional)")
+            config["otx_key"]        = st.text_input("OTX AlienVault", config.get("otx_key",""),        type="password",
+                                                        help="otx.alienvault.com \u2014 free: unlimited")
+        with ti2:
+            config["virustotal_key"] = st.text_input("VirusTotal Key", config.get("virustotal_key",""), type="password",
+                                                        help="virustotal.com/gui/my-apikey \u2014 free: 500/day")
+            config["groq_key"]       = st.text_input("Groq API Key",   config.get("groq_key",""),       type="password",
+                                                        help="console.groq.com \u2014 free: llama-3.3-70b (recommended)")
+            config["anthropic_key"]  = st.text_input("Anthropic Key",  config.get("anthropic_key",""),  type="password",
+                                                        help="console.anthropic.com \u2014 for SOC Copilot")
 
-    with _api_tabs[2]:
-        pass  # placeholder — main content continues below
+        st.subheader("Splunk Integration")
+        sp1, sp2 = st.columns(2)
+        with sp1:
+            config["splunk_hec_url"]   = st.text_input("Splunk HEC URL",   config.get("splunk_hec_url","https://127.0.0.1:8088/services/collector"))
+            config["splunk_hec_token"] = st.text_input("Splunk HEC Token", config.get("splunk_hec_token",""), type="password")
+        with sp2:
+            config["splunk_rest_url"]  = st.text_input("Splunk REST URL",  config.get("splunk_rest_url","https://127.0.0.1:8089"))
+            config["splunk_username"]  = st.text_input("Splunk Username",  config.get("splunk_username","admin"))
+            config["splunk_password"]  = st.text_input("Splunk Password",  config.get("splunk_password",""), type="password")
 
-    st.markdown("#### 🛡️ Security Model")
-    col_sec1, col_sec2, col_sec3 = st.columns(3)
-    col_sec1.success("✅ Keys stored in browser only")
-    col_sec2.success("✅ Never logged or persisted")
-    col_sec3.success("✅ Cleared on tab close")
+        st.subheader("n8n Automation")
+        n1, n2 = st.columns(2)
+        with n1:
+            config["n8n_webhook_url"] = st.text_input("n8n Webhook URL", config.get("n8n_webhook_url",""))
+        with n2:
+            config["n8n_api_key"]     = st.text_input("n8n API Key",     config.get("n8n_api_key",""), type="password")
 
-    st.divider()
+        st.divider()
+        col_save, col_clear, col_test = st.columns(3)
+        with col_save:
+            if st.button("\u2705 Save Keys", type="primary", use_container_width=True):
+                st.session_state["user_api_config"] = config
+                import os as _os
+                key_map = {
+                    "ABUSEIPDB_API_KEY": config.get("abuseipdb_key",""),
+                    "SHODAN_API_KEY":    config.get("shodan_key",""),
+                    "GREYNOISE_API_KEY": config.get("greynoise_key",""),
+                    "OTX_API_KEY":       config.get("otx_key",""),
+                    "VIRUSTOTAL_API_KEY":config.get("virustotal_key",""),
+                    "GROQ_API_KEY":      config.get("groq_key",""),
+                    "ANTHROPIC_API_KEY": config.get("anthropic_key",""),
+                    "SPLUNK_HEC_URL":    config.get("splunk_hec_url",""),
+                    "SPLUNK_HEC_TOKEN":  config.get("splunk_hec_token",""),
+                    "N8N_WEBHOOK_URL":   config.get("n8n_webhook_url",""),
+                }
+                for env_key, val in key_map.items():
+                    if val: _os.environ[env_key] = val
+                st.success("\u2705 Keys saved and applied for this session!")
+        with col_clear:
+            if st.button("\U0001f5d1\ufe0f Clear All Keys", use_container_width=True):
+                st.session_state["user_api_config"] = {}
+                st.rerun()
+        with col_test:
+            if st.button("\U0001f50d Test Connections", use_container_width=True):
+                with st.spinner("Testing\u2026"):
+                    import requests as _req, os as _os
+                    results = {}
+                    if config.get("abuseipdb_key"):
+                        try:
+                            r = _req.get("https://api.abuseipdb.com/api/v2/check",
+                                          params={"ipAddress":"8.8.8.8","maxAgeInDays":90},
+                                          headers={"Key":config["abuseipdb_key"],"Accept":"application/json"},
+                                          timeout=5)
+                            results["AbuseIPDB"] = "\u2705" if r.status_code==200 else f"\u274c {r.status_code}"
+                        except: results["AbuseIPDB"] = "\u274c timeout"
+                    else:
+                        results["AbuseIPDB"] = "\u2b1c no key"
+                    if config.get("groq_key"):
+                        try:
+                            r = _req.post("https://api.groq.com/openai/v1/chat/completions",
+                                          headers={"Authorization":f"Bearer {config['groq_key']}","Content-Type":"application/json"},
+                                          json={"model":"llama-3.3-70b-versatile","messages":[{"role":"user","content":"hi"}],"max_tokens":5},
+                                          timeout=8)
+                            results["Groq"] = "\u2705" if r.status_code==200 else f"\u274c {r.status_code}"
+                        except: results["Groq"] = "\u274c timeout"
+                    else:
+                        results["Groq"] = "\u2b1c no key"
+                for svc, status in results.items():
+                    st.write(f"**{svc}:** {status}")
 
-    # Demo mode toggle
-    config["use_demo_mode"] = st.toggle(
-        "🎬 Use Demo Mode (recommended for public deployment)",
-        value=config.get("use_demo_mode", True),
-        help="In demo mode, pre-built sample data is shown. Add your own keys for live data.", key="dtct_tgl_1")
-
-    if config["use_demo_mode"]:
-        st.info("**Demo Mode active** — all features work with sample data. No API keys needed.")
-    else:
-        st.warning("**Live Mode** — enter your API keys below for real data.")
-
-    st.divider()
-    st.subheader("Threat Intelligence Keys")
-    ti1, ti2 = st.columns(2)
-    with ti1:
-        config["abuseipdb_key"]  = st.text_input("AbuseIPDB Key",  config.get("abuseipdb_key",""),  type="password",
-                                                    help="abuseipdb.com/account/api — free: 1000/day")
-        config["shodan_key"]     = st.text_input("Shodan Key",     config.get("shodan_key",""),     type="password",
-                                                    help="account.shodan.io — free: 100/month")
-        config["greynoise_key"]  = st.text_input("GreyNoise Key",  config.get("greynoise_key",""),  type="password",
-                                                    help="viz.greynoise.io — free: 50/day (optional)")
-        config["otx_key"]        = st.text_input("OTX AlienVault", config.get("otx_key",""),        type="password",
-                                                    help="otx.alienvault.com — free: unlimited")
-    with ti2:
-        config["virustotal_key"] = st.text_input("VirusTotal Key", config.get("virustotal_key",""), type="password",
-                                                    help="virustotal.com/gui/my-apikey — free: 500/day")
-        config["groq_key"]       = st.text_input("Groq API Key",   config.get("groq_key",""),       type="password",
-                                                    help="console.groq.com — free: llama-3.3-70b (recommended)")
-        config["anthropic_key"]  = st.text_input("Anthropic Key",  config.get("anthropic_key",""),  type="password",
-                                                    help="console.anthropic.com — for SOC Copilot")
-
-    st.subheader("Splunk Integration")
-    sp1, sp2 = st.columns(2)
-    with sp1:
-        config["splunk_hec_url"]   = st.text_input("Splunk HEC URL",   config.get("splunk_hec_url","https://127.0.0.1:8088/services/collector"))
-        config["splunk_hec_token"] = st.text_input("Splunk HEC Token", config.get("splunk_hec_token",""), type="password")
-    with sp2:
-        config["splunk_rest_url"]  = st.text_input("Splunk REST URL",  config.get("splunk_rest_url","https://127.0.0.1:8089"))
-        config["splunk_username"]  = st.text_input("Splunk Username",  config.get("splunk_username","admin"))
-        config["splunk_password"]  = st.text_input("Splunk Password",  config.get("splunk_password",""), type="password")
-
-    st.subheader("n8n Automation")
-    n1, n2 = st.columns(2)
-    with n1:
-        config["n8n_webhook_url"] = st.text_input("n8n Webhook URL", config.get("n8n_webhook_url",""))
-    with n2:
-        config["n8n_api_key"]     = st.text_input("n8n API Key",     config.get("n8n_api_key",""), type="password")
-
-    st.divider()
-    col_save, col_clear, col_test = st.columns(3)
-    with col_save:
-        if st.button("✅ Save Keys", type="primary", use_container_width=True):
-            st.session_state["user_api_config"] = config
-            # Push to os.environ so existing modules pick them up
-            import os as _os
-            key_map = {
-                "ABUSEIPDB_API_KEY": config.get("abuseipdb_key",""),
-                "SHODAN_API_KEY":    config.get("shodan_key",""),
-                "GREYNOISE_API_KEY": config.get("greynoise_key",""),
-                "OTX_API_KEY":       config.get("otx_key",""),
-                "VIRUSTOTAL_API_KEY":config.get("virustotal_key",""),
-                "GROQ_API_KEY":      config.get("groq_key",""),
-                "ANTHROPIC_API_KEY": config.get("anthropic_key",""),
-                "SPLUNK_HEC_URL":    config.get("splunk_hec_url",""),
-                "SPLUNK_HEC_TOKEN":  config.get("splunk_hec_token",""),
-                "N8N_WEBHOOK_URL":   config.get("n8n_webhook_url",""),
-            }
-            for env_key, val in key_map.items():
-                if val: _os.environ[env_key] = val
-            st.success("✅ Keys saved and applied for this session!")
-    with col_clear:
-        if st.button("🗑️ Clear All Keys", use_container_width=True):
-            st.session_state["user_api_config"] = {}
-            st.rerun()
-    with col_test:
-        if st.button("🔍 Test Connections", use_container_width=True):
-            with st.spinner("Testing…"):
-                import requests as _req, os as _os
-                results = {}
-                # Test AbuseIPDB
-                if config.get("abuseipdb_key"):
-                    try:
-                        r = _req.get("https://api.abuseipdb.com/api/v2/check",
-                                      params={"ipAddress":"8.8.8.8","maxAgeInDays":90},
-                                      headers={"Key":config["abuseipdb_key"],"Accept":"application/json"},
-                                      timeout=5)
-                        results["AbuseIPDB"] = "✅" if r.status_code==200 else f"❌ {r.status_code}"
-                    except: results["AbuseIPDB"] = "❌ timeout"
-                else:
-                    results["AbuseIPDB"] = "⬜ no key"
-                # Test Groq
-                if config.get("groq_key"):
-                    try:
-                        r = _req.post("https://api.groq.com/openai/v1/chat/completions",
-                                      headers={"Authorization":f"Bearer {config['groq_key']}","Content-Type":"application/json"},
-                                      json={"model":"llama-3.3-70b-versatile","messages":[{"role":"user","content":"hi"}],"max_tokens":5},
-                                      timeout=8)
-                        results["Groq"] = "✅" if r.status_code==200 else f"❌ {r.status_code}"
-                    except: results["Groq"] = "❌ timeout"
-                else:
-                    results["Groq"] = "⬜ no key"
-            for svc, status in results.items():
-                st.write(f"**{svc}:** {status}")
-
-    st.divider()
-    st.subheader("📋 .env Template")
-    st.code("""# Copy to your .env file (ui/.env)
+        st.divider()
+        st.subheader("\U0001f4cb .env Template")
+        st.code("""# Copy to your .env file (ui/.env)
 ABUSEIPDB_API_KEY=your_key_here
 SHODAN_API_KEY=your_key_here
 GREYNOISE_API_KEY=your_key_here
@@ -5164,6 +5073,14 @@ SPLUNK_USERNAME=admin
 SPLUNK_PASSWORD=your_password
 N8N_WEBHOOK_URL=https://your-n8n.railway.app
 N8N_API_KEY=your_n8n_key""", language="bash")
+
+    with _api_tabs[1]:
+        st.markdown("#### \U0001f6e1\ufe0f Security Model")
+        col_sec1, col_sec2, col_sec3 = st.columns(3)
+        col_sec1.success("\u2705 Keys stored in browser only")
+        col_sec2.success("\u2705 Never logged or persisted")
+        col_sec3.success("\u2705 Cleared on tab close")
+        st.divider()
 
 
 # ══════════════════════════════════════════════════════════════════════════════
